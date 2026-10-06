@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ed4af1 (penambahan data)
 # WS01 — Team Formation & Project Norms
 
 **Worksheet Number**: WS01
@@ -59,6 +62,7 @@ _[Isi kesepakatan tim tentang penyelesaian konflik]_
 
 ---
 
+<<<<<<< HEAD
 **Status**: ⬜ Selesai
 =======
 # **WORKSHEET BOOK: WS01 — Team Formation & Project Norms** 
@@ -190,3 +194,6 @@ Tim terbentuk beranggotakan 3–4 mahasiswa. Objek studi terpilih dari daftar am
 **Tanggal Pengesahan** : [DD/10/2026] **Dosen Pengampu / Coach** : [Nama Dosen Pengampu] 
 
 >>>>>>> 89b216f (Add PBL project materials)
+=======
+**Status**: ⬜ Selesai
+>>>>>>> 7ed4af1 (penambahan data)
