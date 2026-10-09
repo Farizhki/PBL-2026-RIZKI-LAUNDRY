@@ -14,10 +14,10 @@
 
 ## Objek Studi
 
-- **Nama Unit Usaha**: [contoh: Kantin Kampus "Makmur"]
-- **Lokasi**: [contoh: Gedung A, Lantai 1]
-- **Pemilik**: [nama, kontak]
-- **Jenis Usaha**: [contoh: Kantin / Warung / Koperasi]
+- **Nama Unit Usaha**: [Rizky Laundry]
+- **Lokasi**: [Jl. Tegal Mulyo No.RT05 RW06, Tamanan, Kec. Banguntapan, Kab. Bantul, Daerah Istimewa Yogyakarta 55191]
+- **Pemilik**: [Rizky, 0815-7368-4428]
+- **Jenis Usaha**: [Laundry]
 
 ## Driving Question
 
