@@ -1,13 +1,14 @@
-# [NAMA TIM] — Digital Problem Framing Mini Project
+# [Excellent Team] — Digital Problem Framing Mini Project
 
 ## Tim
 
 | Nama | NIM | Phase Lead untuk Fase |
 |---|---|---|
-| [Nama 1] | [NIM] | Discover, Build |
-| [Nama 2] | [NIM] | Frame, Test |
-| [Nama 3] | [NIM] | Define, Communicate |
-| [Nama 4] | [NIM] | Design, Reflect |
+| [M Faris Ilham] | [2600016014] | Test, Build |
+| [Farizhki] | [2600016027] | Design, Reflect |
+| [M Zacky Alfattah] | [2600016015] | Communicate |
+| [Mutia Fatmawati] | [2600016049] | Frame |
+| [Deva Nayla Maisya] | [2600016039] | Discover, Devine |
 
 > **Aturan**: Tim memakai **rotating phase lead** — tidak ada peran permanen. Setiap anggota memimpin minimal satu fase. Jadwal fase awal ditetapkan di WS01 dan dapat disesuaikan sepanjang semester.
 
