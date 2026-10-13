@@ -1,57 +1,23 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # [Tulip Team] — Digital Problem Framing Mini Project
-=======
-# [NAMA TIM] — Digital Problem Framing Mini Project
->>>>>>> 89b216f (Add PBL project materials)
-=======
-# [NAMA TIM] — Digital Problem Framing Mini Project
->>>>>>> 7ed4af1 (penambahan data)
 
 ## Tim
 
-| Nama | NIM | Phase Lead untuk Fase |
+| Nama | NIM | Peran |
 |---|---|---|
-<<<<<<< HEAD
-<<<<<<< HEAD
 | [M Faris Ilham] | [2600016014] | Test, Build |
 | [Farizhki] | [2600016027] | Design, Reflect |
 | [M Zacky Alfattah] | [2600016015] | Communicate |
 | [Mutia Fatmawati] | [2600016049] | Frame |
 | [Deva Nayla Maisya] | [2600016039] | Discover, Devine |
-=======
-=======
->>>>>>> 7ed4af1 (penambahan data)
-| [Nama 1] | [NIM] | Discover, Build |
-| [Nama 2] | [NIM] | Frame, Test |
-| [Nama 3] | [NIM] | Define, Communicate |
-| [Nama 4] | [NIM] | Design, Reflect |
-<<<<<<< HEAD
->>>>>>> 89b216f (Add PBL project materials)
-=======
->>>>>>> 7ed4af1 (penambahan data)
 
 > **Aturan**: Tim memakai **rotating phase lead** — tidak ada peran permanen. Setiap anggota memimpin minimal satu fase. Jadwal fase awal ditetapkan di WS01 dan dapat disesuaikan sepanjang semester.
 
 ## Objek Studi
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Nama Unit Usaha**: [Rizky Laundry]
 - **Lokasi**: [Jl. Tegal Mulyo No.RT05 RW06, Tamanan, Kec. Banguntapan, Kab. Bantul, Daerah Istimewa Yogyakarta 55191]
 - **Pemilik**: [Rizky, 0815-7368-4428]
 - **Jenis Usaha**: [Laundry]
-=======
-=======
->>>>>>> 7ed4af1 (penambahan data)
-- **Nama Unit Usaha**: [contoh: Kantin Kampus "Makmur"]
-- **Lokasi**: [contoh: Gedung A, Lantai 1]
-- **Pemilik**: [nama, kontak]
-- **Jenis Usaha**: [contoh: Kantin / Warung / Koperasi]
-<<<<<<< HEAD
->>>>>>> 89b216f (Add PBL project materials)
-=======
->>>>>>> 7ed4af1 (penambahan data)
 
 ## Driving Question
 
@@ -130,12 +96,4 @@ Seluruh penggunaan AI tercatat di `docs/evidence/E3-ai-disclosure.md` → bagian
 - [Buku Petunjuk PjBL Level 1 (Revisi 3)](../pbl_guidebook_for_student_revisi_3.md)
 - [Worksheet Book](../worksheet_book.md)
 - [Template Pack](../template_pack.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Assessment Rubrics](../assessment_rubrics.md)
-=======
-- [Assessment Rubrics](../assessment_rubrics.md)
->>>>>>> 89b216f (Add PBL project materials)
-=======
-- [Assessment Rubrics](../assessment_rubrics.md)
->>>>>>> 7ed4af1 (penambahan data)
