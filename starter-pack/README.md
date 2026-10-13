@@ -1,4 +1,4 @@
-# [Excellent Team] — Digital Problem Framing Mini Project
+# [Tulip Team] — Digital Problem Framing Mini Project
 
 ## Tim
 
