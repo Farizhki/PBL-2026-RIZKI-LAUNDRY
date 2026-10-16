@@ -196,4 +196,8 @@ Tim terbentuk beranggotakan 3–4 mahasiswa. Objek studi terpilih dari daftar am
 >>>>>>> 89b216f (Add PBL project materials)
 =======
 **Status**: ⬜ Selesai
+<<<<<<< HEAD
 >>>>>>> 7ed4af1 (penambahan data)
+=======
+>>>>>>> 7ed4af1 (penambahan data)
+>>>>>>> 5df1ae9911cf688043fac93767ebf43969f6fabc

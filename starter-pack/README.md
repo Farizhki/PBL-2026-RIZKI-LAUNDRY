@@ -96,4 +96,8 @@ Seluruh penggunaan AI tercatat di `docs/evidence/E3-ai-disclosure.md` → bagian
 - [Buku Petunjuk PjBL Level 1 (Revisi 3)](../pbl_guidebook_for_student_revisi_3.md)
 - [Worksheet Book](../worksheet_book.md)
 - [Template Pack](../template_pack.md)
+<<<<<<< HEAD
 - [Assessment Rubrics](../assessment_rubrics.md)
+=======
+- [Assessment Rubrics](../assessment_rubrics.md)
+>>>>>>> 5df1ae9911cf688043fac93767ebf43969f6fabc
