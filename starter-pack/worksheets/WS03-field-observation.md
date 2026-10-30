@@ -1,9 +1,7 @@
 # **WS03: Field Observation & Ethical Interview Plan** 
 
 **Mata Kuliah** : Konsep Sistem Informasi (KSI) **Kerangka Kerja** : Project-Based Learning (PBL) Level 1 **Fase Learning Spine** : **Fase 2 — Frame (Problem Discovery & Scope) Minggu / Alokasi Waktu** : Minggu 2 / 14 Jam Belajar 
-
 **Sub-CPMK / SFIA** : S-01.1 (Introduce - Problem Framing) | SFIA BUSA L1 ( _Business Analysis_ ), IRMG L1 
-
 **Penanggung Jawab Fase** : **Phase Lead 2 (Frame — Mahasiswa B) Keterkaitan Deliverable** : Masukan Data Empiris & Bukti Lapangan untuk **Deliverable D1 (Problem Brief - TPL-01)** 
 
 ## **1. Identifikasi Tim & Objek Observasi Lapangan** 
