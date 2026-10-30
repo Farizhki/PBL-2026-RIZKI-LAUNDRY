@@ -67,10 +67,10 @@ Data pelanggan, keuntungan dan data pendapatan.
 
 ## **Checklist Kelulusan WS02**
 
-- _Need-to-Know List v1_ tersusun dengan **minimal 6 pertanyaan** operasional yang valid.
-- Setiap pertanyaan dilengkapi identifikasi sumber informasi dan cara perolehan yang etis.
-- Kata/konsep kunci SI teridentifikasi untuk dipasang pada _Project Wall_ studio.
-- Berkas dikirim / diserahkan kepada dosen koordinator sebagai bukti _Check-in Checkpoint (b)_.
+- [x] _Need-to-Know List v1_ tersusun dengan **minimal 6 pertanyaan** operasional yang valid.
+- [x] Setiap pertanyaan dilengkapi identifikasi sumber informasi dan cara perolehan yang etis.
+- [x] Kata/konsep kunci SI teridentifikasi untuk dipasang pada _Project Wall_ studio.
+- [x] Berkas dikirim / diserahkan kepada dosen koordinator sebagai bukti _Check-in Checkpoint (b)_.
 
 **Phase Lead Fase 1 (Discover)**: Deva Nayla Maisya  
 **Tanggal Penyelesaian**: 05/10/2026  
