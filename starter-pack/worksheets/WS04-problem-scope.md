@@ -25,7 +25,7 @@ Gunakan temuan kuantitatif dari WS03 untuk memisahkan antara **Gejala Permukaan 
 | ------ | --------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | **1**  | **Proses Transaksi Kasir**  | Pencatatan transaksi masih dilakukan secara manual.                                                          | Belum ada sistem pencatatan transaksi dan penghitungan total harga yang terstruktur oleh mitra sehingga masih dilakukan manual di buku dan nota.                               | Rata-rata waktu transaksi = **2 menit/orang**                                                    |
 | **2**  | **Pengelolaan Stok Barang** | Pembelian bahan baku dilakukan ketika pemilik melihat stock menipis atau habis.                              | Pencatatan stok belum dicatat secara terstruktur untuk memantau persediaan.                                                                                                    | Belum ada data kuantitatif mengenai pengelolaan stock barang persediaan dan pembelian kebutuhan. |
-| **3**  | **Rekapitulasi Keuangan**   | Pemilik hanya melakukan rekapitulasi pengeluaran setiap minggu, dan jarang melakukan rekapitulasi transaksi. | Pemilik tidak melakukan rekapitulasi transaksi karena terdapat pelanggan yang belum melunasi pembayaran yang membuat pemilik membuat pemilik memilih untuk tidak melakukannya. | Durasi rekapitulasi penggeluaran mingguan = **30-60 menit/malam**.                               |
+| **3**  | **Rekapitulasi Keuangan**   | Pemilik hanya melakukan rekapitulasi pengeluaran setiap minggu, dan jarang melakukan rekapitulasi transaksi. | Pemilik tidak melakukan rekapitulasi transaksi karena terdapat pelanggan yang belum melunasi pembayaran yang membuat pemilik membuat pemilik memilih untuk tidak melakukannya. | Durasi rekapitulasi penggeluaran mingguan = **30-60 menit/minggu**.                               |
 
 ## **3\. Perumusan Problem Statement Kontekstual**
 
@@ -39,41 +39,26 @@ Sistem pencarian data pelanggan masih dilakukan secara manual, yaitu dengan mene
 
 Di sisi lain, pemilik juga hanya melakukan rekapitulasi pengeluaran rutin setiap minggu tanpa melakukan rekapitulasi transaksi secara rutin. Karena masih terdapat pelanggan yang belum melunasi pembayaran."
 
-## **4\. Menetapkan Batasan Sistem (System Boundary / Scope Alignment)**
+4. Menetapkan Batasan Sistem (System Boundary / Scope Alignment)
+Untuk mencegah terjadinya pembengkakan fitur (Scope Creep) yang membahayakan penyelesaian proyek dalam 1 semester, tentukan secara tegas apa yang Masuk Cakupan (In-Scope) dan apa yang Di Luar Cakupan (Out-of-Scope):
 
-Untuk mencegah terjadinya pembengkakan fitur (_Scope Creep_) yang membahayakan penyelesaian proyek dalam 1 semester, tentukan secara tegas apa yang **Masuk Cakupan (_In-Scope_)** dan apa yang **Di Luar Cakupan (_Out-of-Scope_)**:
-
- ┌───────────────────────────────────────────┐
-
-│ SYSTEM BOUNDARY (BATASAN SISTEM) │
-
-│ │
-
-│ \[ IN-SCOPE: Fitur yang Akan Dibangun \] │
-
-│ 1. Pencatatan transaksi pelanggan │
-
-│ 2. Pencatatan status pembayaran │
-
-│ 3. Pencarian data transaksi │
-
-│ 4. Pencetakan ringkasan rekapitulasi mingguan untuk pemilik
-
-│ │
-
-│─────────────────────────────────────────── │
-
-│ │
-
-│ \[ OUT-OF-SCOPE: Di Luar Cakupan Proyek \] │
-
-│ 1. Integrasi gateway pembayaran e-wallet / QRIS otomatis. │
-
-│ 2. Rekapitulasi pengeluaran │
-
-│ 3. Pemesanan stok otomatis │ └────────────────────────────────────────────┘
-
-### **Tabel Penegasan Cakupan Proyek (*Scope Alignment Table*)**
+ ```text
++-----------------------------------------------------------------------------+
+|                      SYSTEM BOUNDARY (BATASAN SISTEM)                       |
++-----------------------------------------------------------------------------+
+| [ IN-SCOPE: Fitur yang Akan Dibangun ]                                      |
+| 1. Pencatatan transaksi pelanggan.                                          |
+| 2. Pencatatan status pembayaran.                                            |
+| 3. Pencarian data transaksi.                                                |
+| 4. Pencetakan ringkasan rekapitulasi mingguan untuk pemilik.                |
++-----------------------------------------------------------------------------+
+| [ OUT-OF-SCOPE: Di Luar Cakupan Proyek ]                                    |
+| 1. Integrasi gateway pembayaran e-wallet / QRIS otomatis.                   |
+| 2. Rekapitulasi pengeluaran.                                                |
+| 3. Pemesanan stok otomatis.                                                 |
++-----------------------------------------------------------------------------+
+```
+### **Tabel Penegasan Cakupan Proyek (*Scope Alignment Table*)**
 
 | **No** | **Modul / Fitur Sistem**            | **Status Cakupan (_In-Scope / Out-of-Scope_)** | **Alasan Pertimbangan Kelayakan (O'Brien)**                                                                                                                                          |
 | ------ | ----------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -107,11 +92,17 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 
 ### **B. Tanda Tangan Pengesahan Phase Lead 2**
 
-Disusun oleh Phase Lead 2 (Frame): \[ Mutia Fatmawati — 2600016049 \]
+Disusun oleh Phase Lead 2 (Frame): [ Mutia Fatmawati — 2600016049 ]
 
-```
+---
+
 Tanggal Penyusunan: [ 19/10/2026 ]
-Tanda Tangan Phase Lead 2:
+
+Tanda Tangan Phase Lead 2: [Tanda Tangan Digital](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/8a9ce284bf71a97ea6a02604783b00ed73916244/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Mutia.jpeg)
+
 Diverifikasi oleh Dosen Pengampu / Coach:
-Tanggal: [ 20/10/2026 ] | Status Checkpoint: [APPROVED]
+
+Tanggal: [ 20/10/2026 ] | Status Checkpoint: [ APPROVED ]
 Catatan Dosen: __________________________________________________
+
+---
