@@ -63,9 +63,7 @@ Gunakan lembar ini saat berada di lokasi mitra untuk mencatat secara kronologis 
 ### **A. Pemetaan Alur Transaksi As-Is (Kronologis Kronik)** 
 
 - **Langkah 1 (Input Pesanan)** : Pelanggan datang membawa pakaian yang ingin di laundry atau menggunakan layanan antar jemput, kemudian pemilik menanyakan paket apa yang ingin di pilih pelanggan. Paket yang tersedia ada: 
-
-   1. Laundry Express (1 hari dengan ketentuan berlaku) 
-
+ 1. Laundry Express (1 hari dengan ketentuan berlaku)
    2. Laundry Komplit/cuci kering dan setrika (2-3 hari) 
 
    3. Cuci saja 
@@ -76,19 +74,17 @@ Kemudian pemilik laundry menanyakan “apakah ada selimut atau sprei di dalam pa
 
 - **Langkah 2 (Kalkulasi & Pembayaran)** : Pemilik menimbang berat pakaian kemudian menghitung biaya laundry berdasarkan paket yang dipilih, berat pakaian atau jenis bahan yang di laundry. Harga laundry di kategorikan sebagai berikut: 
 
-   1. Laundry exspress = 8.000/kg 
+1. Laundry exspress = 8.000/kg 
 
-   2. Laundry komplit = 6.000/kg 
+2. Laundry komplit = 6.000/kg 
 
-   3. Cuci kering saja = 4.000/kg 
+3. Cuci kering saja = 4.000/kg 
 
-   4. Setrika saja = 5.000/kg 
+4. Setrika saja = 5.000/kg 
 
-   5. Sprei/selimut 
-
-Kecil=5.000/pcs 
-
-Sedang/besar=10.000/pcs 
+5. Sprei/selimut 
+   Kecil=5.000/pcs 
+   Sedang/besar=10.000/pcs 
 
 Setelah itu pemilik menanyakan nama pelanggan untuk dicatat di nota Bersama dengan berat pakaian dan total harga. Data tersebut kemudian dicatat Kembali pada buku besar Bersama dengan nomor handphone pelanggan. Pemilik kemudian menanyakan apakah pelanggan ingin membayar sekarang, nanti, atau dengan uang muka (DP) dengan metode pembayaran QRIS atau cash. Nota diserahkan kepada pelanggan/difoto untuk pelanggan yang menggunakan layanan antar jemput. 
 
