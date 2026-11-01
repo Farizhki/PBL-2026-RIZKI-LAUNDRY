@@ -107,9 +107,9 @@ Jika pelanggan belum membayar maka akan di arahkan untuk membayar, jika sudah ma
 |**Indikator Pengukuran**|**Angka Baseline Hasil**<br>**Observasi**|**Satuan / Keterangan**|
 |---|---|---|
 |**Rata-rata Waktu Transaksi**<br>**per Pelanggan**|2 menit|Diukur menggunakan<br>stopwatch untuk 2–3 sampel<br>transaksi.|
-|**Durasi Rekapitulasi**<br>**Penjualan Harian**|30-60 menit /minggu|Waktu yang dibutuhkan<br>pemilik setiap minggu untuk<br>rekap pengeluaran.|
-|**Frekuensi Kesalahan**<br>**Pencatatan / Selisih**|1-2 kali /minggu|Kejadian selisih nota fisik<br>dengan fisik uang tunai,|
-|**Jumlah Pelanggan pada**<br>**Jam Sibuk**|15 Orang /hari|Beban transaksi puncak pada<br>hari  sibuk.|
+|**Durasi Rekapitulasi**<br>**Penjualan mingguan**|<30/minggu|Waktu yang dibutuhkan<br>pemilik setiap minggu untuk<br>rekap pengeluaran.|
+|**Frekuensi Kesalahan**<br>**Pencatatan / Selisih**|1-2 kali /bulan|Kejadian selisih nota fisik<br>dengan fisik uang tunai,|
+|**Jumlah Pelanggan pada**<br>**Jam Sibuk**|4-7 Orang /hari|Beban transaksi puncak pada<br>hari  sibuk.|
 
 
 
@@ -119,9 +119,7 @@ Jika pelanggan belum membayar maka akan di arahkan untuk membayar, jika sudah ma
 
 1. _Apakah selama observasi lapangan ditemukan hal tak terduga yang belum tercakup dalam 10 pertanyaan wawancara awal?_ 
 
-   - **Jawab** : Temuan unik yang kami temukan adalah pemilik tidak membagi keuntungan dari pendapatan (setiap penggeluaran pribadi di catat bersamaan 
-
-dengan pengeluaran usaha), pembelian bahan baku dilakukan ketika habis, tanpa ada catatan pasti mengenai jumlah stock. Pencatatan menggunakan 3 buku. buku pertama digunakan untuk mencatat data pelanggan, buku kedua digunakan untuk mencatat urutan paket yang dipilih pelanggan (dari laundry express hingga laundry biasa), dan buku ketiga digunakan untuk mencatat pengeluaran. Juga Sistem pencarian data pelanggan masih dilakukan secara manual, yaitu dengan menelusuri buku catatan untuk memastikan status pembayaran pelanggan saat mengambil pesanan. 
+   - **Jawab** : Temuan unik yang kami temukan adalah pemilik tidak membagi keuntungan dari pendapatan (setiap penggeluaran pribadi di catat bersamaan dengan pengeluaran usaha), pembelian bahan baku dilakukan ketika habis, tanpa ada catatan pasti mengenai jumlah stock. Pencatatan menggunakan 3 buku. buku pertama digunakan untuk mencatat data pelanggan, buku kedua digunakan untuk mencatat urutan paket yang dipilih pelanggan (dari laundry express hingga laundry biasa), dan buku ketiga digunakan untuk mencatat pengeluaran. Juga Sistem pencarian data pelanggan masih dilakukan secara manual, yaitu dengan menelusuri buku catatan untuk memastikan status pembayaran pelanggan saat mengambil pesanan. 
 
 2. _Bagaimana tim memastikan bahwa seluruh data transaksi dan profil mitra yang dikumpulkan tetap terjaga kerahasiaannya?_ 
 
