@@ -32,7 +32,7 @@ Learning Moment: **Discover (Minggu 1)**
 - **Kelas / Paralel**: A
 - **Objek Studi Terpilih**: Rizky Laundry
 - **Bidang Usaha**: Laundry
-- **Lokasi Mitra**: Jl. Kalimo sodo, Tamanan, Kec. Banguntapan
+- **Lokasi Mitra**: Jl. Tegal Mulyo No.RT05 RW06, Tamanan, Kec. Banguntapan, Kab. Bantul, Daerah Istimewa Yogyakarta 55191
 - **Narahubung / Pemilik**: Rezza Rahayu (082317480455)
 
 ### **2\. Alokasi Kepemimpinan Bergilir (Rotating Phase Lead)**
