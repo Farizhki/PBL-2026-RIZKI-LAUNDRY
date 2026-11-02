@@ -136,7 +136,6 @@ Tanggal Observasi: [ 07 Oktober 2026 ]
 4. Anggota Tim 3            : Farizhki ([Tanda tangan digital](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/main/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Farizkhi.jpeg))
 5. Anggota Tim 4            : M Faris Ilham ([Tanda tangan digital](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/main/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Faris.jpeg))
 ```
-
 ### Bukti Lapangan
 
 | No | Keterangan | Bukti |
