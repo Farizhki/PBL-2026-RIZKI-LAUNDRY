@@ -137,15 +137,15 @@ Tanggal Observasi: [ 07 Oktober 2026 ]
 5. Anggota Tim 4            : M Faris Ilham ([Tanda tangan digital](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/main/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Faris.jpeg))
 ```
 
-#### Bukti Lapangan 
+### Bukti Lapangan
 
-|NO|Keterangan|Bukti|
-|---|---|---|
-|1|Transkrip wawancara 1|[Bukti Transkrip 1]|
-|2|Audio wawancara 1|[ Bukti Audio 1 ]|
-|3|Transkrip wawancara 2|[Bukti Transkrip 2]|
-|4|Audio wawancara 2|[Bukti Audio 2]|
-|5|Dokumentasi wawancara 1|[dokumentasi 1]|
+| No | Keterangan | Bukti |
+|:--:|------------|-------|
+| 1 | Transkrip wawancara 1 | [Bukti Transkrip 1](LINK_TRANSKRIP_1) |
+| 2 | Audio wawancara 1 | [Bukti Audio 1](LINK_AUDIO_1) |
+| 3 | Transkrip wawancara 2 | [Bukti Transkrip 2](LINK_TRANSKRIP_2) |
+| 4 | Audio wawancara 2 | [Bukti Audio 2](LINK_AUDIO_2) |
+| 5 | Dokumentasi wawancara 1 | [Dokumentasi 1](LINK_DOKUMENTASI_1) |
 
 
 
