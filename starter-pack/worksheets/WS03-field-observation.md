@@ -140,11 +140,11 @@ Tanggal Observasi: [ 07 Oktober 2026 ]
 
 | No | Keterangan | Bukti |
 |:--:|------------|-------|
-| 1 | Transkrip wawancara 1 | [Bukti Transkrip 1](LINK_TRANSKRIP_1) |
-| 2 | Audio wawancara 1 | [Bukti Audio 1](LINK_AUDIO_1) |
-| 3 | Transkrip wawancara 2 | [Bukti Transkrip 2](LINK_TRANSKRIP_2) |
-| 4 | Audio wawancara 2 | [Bukti Audio 2](LINK_AUDIO_2) |
-| 5 | Dokumentasi wawancara 1 | [Dokumentasi 1](LINK_DOKUMENTASI_1) |
+| 1 | Transkrip wawancara 1 | [Bukti Transkrip 1](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/e2568e28caab2734600edc43613cb89f40477e4d/starter-pack/assets/transkrip/Transkrip%20wawancara%201.md) |
+| 2 | Audio wawancara 1 | [Bukti Audio 1](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/e2568e28caab2734600edc43613cb89f40477e4d/starter-pack/assets/rekaman_suara/Audio%20wawancara%201.opus) |
+| 3 | Transkrip wawancara 2 | [Bukti Transkrip 2](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/e2568e28caab2734600edc43613cb89f40477e4d/starter-pack/assets/transkrip/Transkrip%20wawancara%202.md) |
+| 4 | Audio wawancara 2 | [Bukti Audio 2](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/e2568e28caab2734600edc43613cb89f40477e4d/starter-pack/assets/rekaman_suara/Audio%20wawancara%202.m4a) |
+| 5 | Dokumentasi wawancara 1 | [Dokumentasi 1](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/e2568e28caab2734600edc43613cb89f40477e4d/starter-pack/assets/foto/Dokumentasi%20wawancara%201.jpg) |
 
 
 
