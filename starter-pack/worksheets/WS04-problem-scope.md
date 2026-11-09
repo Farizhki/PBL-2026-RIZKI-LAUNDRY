@@ -78,8 +78,7 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 | **Indikator Kinerja**               | **Kondisi As-Is (Baseline)** | **Target To-Be (Expected)** | **Estimasi Persentase Peningkatan**      |
 | ----------------------------------- | ---------------------------- | --------------------------- | ---------------------------------------- |
 | **Waktu Pelayanan Transaksi Kasir** | 120 detik / pelanggan         | **< 70 detik / pelanggan**  | Peningkatan efisiensi **50.%**          |
-| **Durasi Rekapitulasi Minggu**      | <30 menit / minggu          | **< 20 menit / minggu**      | Penghematan waktu **33.3%**              |
-| **Akurasi Pencatatan Stok**         | Sekitar 1-2 / bulan          | **Akurasi > 80%**           | Penurunan tingkat kesalahan selisih stok |
+| **Frekuensi Kesalahan Pencatatan/Selisih**         | Sekitar 1-2 / bulan          | **Mengurangi Frekuensi Pencatatan**           | Penurunan tingkat frekuensi kesalahan Pencatatan/selisih |
 
 ## **6\. Refleksi & Lembar Pengesahan Phase Lead**
 
@@ -104,9 +103,3 @@ Diverifikasi oleh Dosen Pengampu / Coach:
 
 Tanggal: [ 20/10/2026 ] | Status Checkpoint: [ APPROVED ]
 Catatan Dosen: __________________________________________________
-
-<<<<<<< HEAD
----
-=======
----
->>>>>>> a8acf69bb779d1e0148d5308fd8cb13f95d2581b
