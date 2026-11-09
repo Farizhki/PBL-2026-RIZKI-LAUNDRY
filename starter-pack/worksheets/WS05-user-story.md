@@ -63,7 +63,7 @@ Pemilik Usaha.
 
 - **Saya ingin (_I want to_)**:
 
-Saya ingin melihat rekapitulasi transaksi.
+Saya ingin melihat rekapitulasi transaksi dalam bentuk spreadsheet
 
 - **Sehingga (_So that_)**:
 
