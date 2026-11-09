@@ -107,7 +107,6 @@ Jika pelanggan belum membayar maka akan di arahkan untuk membayar, jika sudah ma
 |**Indikator Pengukuran**|**Angka Baseline Hasil**<br>**Observasi**|**Satuan / Keterangan**|
 |---|---|---|
 |**Rata-rata Waktu Transaksi**<br>**per Pelanggan**|2 menit|Diukur menggunakan<br>stopwatch untuk 2–3 sampel<br>transaksi.|
-|**Durasi Rekapitulasi**<br>**Penjualan mingguan**|<30/minggu|Waktu yang dibutuhkan<br>pemilik setiap minggu untuk<br>rekap pengeluaran.|
 |**Frekuensi Kesalahan**<br>**Pencatatan / Selisih**|1-2 kali /bulan|Kejadian selisih nota fisik<br>dengan fisik uang tunai,|
 |**Jumlah Pelanggan pada**<br>**Jam Sibuk**|4-7 Orang /hari|Beban transaksi puncak pada<br>hari  sibuk.|
 
