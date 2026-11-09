@@ -10,10 +10,10 @@ Keterkaitan Deliverable: **Bahan Utama Deliverable D2 (System & Solution Design 
 
 ### **1\. Identifikasi Kelompok & Rotasi Kepemimpinan**
 
-- **Nama Kelompok**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\____
-- **Objek UMKM Mitra**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\____
-- **Phase Lead 3 (Define)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\____ (Mahasiswa C)
-- **Anggota Tim**: 1. \_**\_**\_**\_**\_**\_**_2. \_**\_**\_**\_**\_**\_**_ 3. \_**\_**\_**\_**\_**\_**_
+- **Nama Kelompok**: Kelompok Tulip
+- **Objek UMKM Mitra**: Laundry
+- **Phase Lead 3 (Define)**: Deva Nayla Maisya (Mahasiswa C)
+- **Anggota Tim**: 1. M. Zacky Alfattah 2. M. Faris Ilham 3. Farizhki 4. Mutia Fatmawati
 
 ### **2\. Landasan Konseptual: Analisis Sistem "What" vs "How"**
 
@@ -29,37 +29,77 @@ Petakan minimal **3 User Story Utama** yang langsung menjawab akar masalah pada 
 
 #### **User Story 1 (Prioritas Utama / Core Feature)**
 
-- **Sebagai (_As a_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Kasir Toko Kelontong)_
-- **Saya ingin (_I want to_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___\__ _(misal: mencatat transaksi penjualan dengan memilih barang dari daftar dan menghitung total otomatis)_
-- **Sehingga (_So that_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ _(misal: waktu transaksi berkurang dan tidak terjadi kesalahan hitung uang kembalian)_
+- **Sebagai (_As a_)**:
 
-#### **User Story 2 (Fitur Manajemen Stok / Data)**
+Pemilik Laundry
 
-- **Sebagai (_As a_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Pemilik Usaha UMKM)_
-- **Saya ingin (_I want to_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___\__ _(misal: melihat jumlah stok barang yang tersisa secara real-time dan mendapatkan peringatan stok menipis)_
-- **Sehingga (_So that_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ _(misal: saya dapat melakukan pemesanan ulang barang tepat waktu sebelum stok habis)_
+- **Saya ingin (_I want to_)**:
 
-#### **User Story 3 (Fitur Pelaporan / Informasi)**
+Saya ingin mencatat transaksi pelanggan dan menghitung secara secara otomatis.
 
-- **Sebagai (_As a_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Pemilik Usaha UMKM)_
-- **Saya ingin (_I want to_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___\__ _(misal: melihat ringkasan total pendapatan harian dan daftar 3 barang terlaris)_
-- **Sehingga (_So that_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ _(misal: saya tidak perlu menghitung nota fisik secara manual selama 1.5 jam setiap malam)_
+- **Sehingga (_So that_)**:
+
+Sehingga pencatatan transaksi lebih terstruktur dan memudahkan dalam pencarian data.
+
+#### **User Story 2 (Fitur Manajemen Data)**
+
+- **Sebagai (_As a_)**:
+
+Pemilik usaha laundry.
+
+- **Saya ingin (_I want to_)**:
+
+Mencari data transaksi pelanggan untuk memeriksa status pembayaran tanpa melihat buku besar secara manual.
+
+- **Sehingga (_So that_)**:
+
+Sehingga saya dapat melihat status pembayaran pelanggan dengan lebih mudah dan cepat.
+
+#### **User Story 3 (Fitur Informasi)**
+
+- **Sebagai (_As a_)**:
+
+Pemilik Usaha.
+
+- **Saya ingin (_I want to_)**:
+
+Saya ingin melihat rekapitulasi transaksi.
+
+- **Sehingga (_So that_)**:
+
+Tidak perlu menghitung nota fisik dan catatan di buku besar secara manual.
 
 ### **4\. Workspace B: Acceptance Criteria Berbasis Skenario (Given-When-Then)**
 
 Susun kriteria penerimaan terstruktur untuk **User Story 1** (mencakup Skenario Sukses dan Skenario Penanganan Eror):
 
-#### **Skenario 1A: Transaksi Penjualan Berhasil (Happy Path)**
+#### **Skenario 1A: Transaksi Berhasil Dicatat(Happy Path)**
 
-- **Diberikan (_Given_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___ _(misal: Kasir berada di layar utama transaksi dan stok produk "Teguk Boba" tersedia sebanyak 10 unit)_
-- **Ketika (_When_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Kasir memasukkan jumlah pesanan 2 unit dan mengklik tombol bayar dengan nominal pas)_
-- **Maka (_Then_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**_ _(misal: Sistem menampilkan bukti transaksi sukses, menghitung kembalian Rp 0, dan mengurangi stok otomatis menjadi 8 unit)_
+- **Diberikan (_Given_)**:
 
-#### **Skenario 1B: Penanganan Pembayaran Kurang / Eror (Exception Path)**
+Pemilik sedang mencatat transaksi pelanggan
 
-- **Diberikan (_Given_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___ _(misal: Total belanja transaksi adalah Rp 35.000)_
-- **Ketika (_When_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Kasir memasukkan nominal pembayaran Rp 30.000)_
-- **Maka (_Then_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**_ _(misal: Sistem menolak transaksi, menampilkan pesan eror "Nominal pembayaran kurang Rp 5.000", dan stok barang tidak berkurang)_
+- **Ketika (_When_)**:
+
+Pemilik mengisi data pelanggan, berat pakaian, total dan juga pembayaran. Kemudian, pemilik menekan tombol simpan.
+
+- **Maka (_Then_)**:
+
+Kemudian sistem menyimpan transaksi dan menampilkan pesan transaksi berhasil.
+
+#### **Skenario 1B: Penanganan / Eror (Exception Path)**
+
+- **Diberikan (_Given_)**:
+
+Pemilik sedang mencatat transaksi pelanggan.
+
+- **Ketika (_When_)**:
+
+Pemilik menekan tombol simpan tanpa mengisi data pelanggan.
+
+- **Maka (_Then_)**:
+
+Sistem menampilkan bahwa data belum lengkap dan tidak dapat disimpan.
 
 ### **5\. Workspace C: Catatan Validasi Kebutuhan dengan Mitra (Field Confirmation)**
 
