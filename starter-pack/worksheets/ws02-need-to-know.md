@@ -32,7 +32,7 @@ _"Bagaimana kita memahami masalah nyata sebuah unit usaha kecil di sekitar kampu
 
 ### **2\. Apa yang Sudah Kami Ketahui (What We Know)**
 
-- **Profil Singkat Mitra**: Rezza Laundry merupakan sebuah UMKM laundry yang terletak di sebrang selatan UAD 4 (300m), dengan mayoritas pelanggan adalah mahasiswa, menawarkan beberapa paket laundry mulai dari express, komplit (cuci-setrika), cuci saja, setrika saja.
+- **Profil Singkat Mitra**: Rizky Laundry (pemilik: Rezza Rahayu) merupakan sebuah UMKM laundry yang terletak di seberang selatan kampus 4 UAD (~300m), dengan mayoritas pelanggan adalah mahasiswa. Menawarkan beberapa paket laundry mulai dari express, komplit (cuci-setrika), cuci saja, setrika saja, dan satuan (sprei/selimut).
 - **Operasional As-Is Awal**: Proses transaksi dimulai dengan mencatat pesanan pelanggan pada nota kertas, kemudian dipindahkan ke buku pencatatan. Pembayaran dapat dilakukan secara tunai maupun melalui QRIS. Pencatatan transaksi masih dilakukan secara manual menggunakan buku.
 - **Dugaan Masalah Awal**: Pengelolaan data transaksi yang masih dilakukan secara manual berpotensi menyebabkan kesalahan pencatatan dan perhitungan harga.
   
@@ -74,5 +74,5 @@ Data pelanggan, serta informasi keuangan mitra yang bersifat pribadi.
 
 **Phase Lead Fase 1 (Discover)**: Deva Nayla Maisya  
 **Tanggal Penyelesaian**: 05/10/2026  
-**Status Checkpoint Dosen**: \[ \] Approved / \[ \] Needs Revision  
-**Catatan Dosen**: \[...\]
+**Status Checkpoint Dosen**: [ ] Approved / [ ] Needs Revision  
+**Catatan Dosen**: [...]
