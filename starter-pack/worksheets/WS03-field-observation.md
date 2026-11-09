@@ -70,7 +70,7 @@ Gunakan lembar ini saat berada di lokasi mitra untuk mencatat secara kronologis 
 4. Setrika saja: Rp5.000/kg
 5. Sprei / selimut: Kecil Rp5.000/pcs; Sedang/Besar Rp10.000/pcs
   
-  Pemilik menanyakan nama pelanggan untuk dicatat di nota beserta berat pakaian dan total harga. Data tersebut dicatat kembali pada buku besar bersama nomor handphone pelanggan. Pemilik menanyakan apakah pembayaran dilakukan langsung, saat pengambilan, atau DP (tunai / QRIS merchant GoPay). Nota diserahkan ke pelanggan atau difoto via WhatsApp untuk layanan antar-jemput.
+  Pemilik menanyakan nama pelanggan untuk dicatat di nota beserta berat pakaian dan total harga. Data tersebut dicatat kembali pada buku besar bersama nomor handphone pelanggan. Pemilik menanyakan apakah pembayaran dilakukan langsung/saat pengambilan, (tunai / QRIS). Nota diserahkan ke pelanggan atau difoto via WhatsApp untuk layanan antar-jemput.
 
 - **Langkah 3 (Penyerahan Barang)** : Setelah pakaian selesai diproses, pemilik memberitahu pelanggan via WhatsApp. Penyerahan dilakukan melalui 2 cara:
   1. *Pelanggan mengambil sendiri*: Pelanggan menyerahkan nota/menyebutkan nama. Pemilik mencari pakaian di rak lalu menelusuri buku besar untuk memastikan status pembayaran. Jika belum lunas, pelanggan membayar terlebih dahulu sebelum pakaian diserahkan.
