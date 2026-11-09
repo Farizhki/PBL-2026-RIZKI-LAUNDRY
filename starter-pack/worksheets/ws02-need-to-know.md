@@ -32,10 +32,10 @@ _"Bagaimana kita memahami masalah nyata sebuah unit usaha kecil di sekitar kampu
 
 ### **2\. Apa yang Sudah Kami Ketahui (What We Know)**
 
-- **Profil Singkat Mitra**: Laundry yang terletak di sebrang selatan UAD 4.
-- **Operasional As-Is Awal**: Pembayaran dapat menggunakan QRIS dan cash, menggunakan nota kertas manual.
-- **Dugaan Masalah Awal**: Kesulitan rekapitulasi
-
+- **Profil Singkat Mitra**: Rezza Laundry merupakan sebuah UMKM laundry yang terletak di sebrang selatan UAD 4 (300m), dengan mayoritas pelanggan adalah mahasiswa, menawarkan beberapa paket laundry mulai dari express, komplit (cuci-setrika), cuci saja, setrika saja.
+- **Operasional As-Is Awal**: Proses transaksi dimulai dengan mencatat pesanan pelanggan pada nota kertas, kemudian dipindahkan ke buku pencatatan. Pembayaran dapat dilakukan secara tunai maupun melalui QRIS. Pencatatan transaksi masih dilakukan secara manual menggunakan buku.
+- **Dugaan Masalah Awal**: Pengelolaan data transaksi yang masih dilakukan secara manual berpotensi menyebabkan kesalahan pencatatan dan perhitungan harga.
+  
 ### **3\. Daftar Pertanyaan Investigasi Awal (Need-to-Know List v1 — Minimal 6 Pertanyaan)**
 
 | **#** | **Kategori**              | **Pertanyaan Investigasi (Need-to-Know)**                                          | **Sumber Informasi** | **Cara Mendapatkan secara Etis**                                       |
@@ -59,11 +59,11 @@ _"Bagaimana kita memahami masalah nyata sebuah unit usaha kecil di sekitar kampu
 
 - **Pertanyaan Need-to-Know mana yang menurut tim paling sulit dijawab dan mengapa?**
 
-kendala, karena belum melakukan observasi langsung dan wawancara.
+Pertanyaan mengenai kendala dalam pencatatan transaksi dan proses rekapitulasi, karena perlu memahami alur kerja mitra secara langsung untuk mengetahui masalah yang benar-benar terjadi.
 
 - **Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
 
-Data pelanggan, keuntungan dan data pendapatan.
+Data pelanggan, serta informasi keuangan mitra yang bersifat pribadi.
 
 ## **Checklist Kelulusan WS02**
 

@@ -105,4 +105,8 @@ Diverifikasi oleh Dosen Pengampu / Coach:
 Tanggal: [ 20/10/2026 ] | Status Checkpoint: [ APPROVED ]
 Catatan Dosen: __________________________________________________
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> a8acf69bb779d1e0148d5308fd8cb13f95d2581b

@@ -16,7 +16,7 @@
 
 - **Nama Unit Usaha**: [Rizky Laundry]
 - **Lokasi**: [Jl. Tegal Mulyo No.RT05 RW06, Tamanan, Kec. Banguntapan, Kab. Bantul, Daerah Istimewa Yogyakarta 55191]
-- **Pemilik**: [Rizky, 0815-7368-4428]
+- **Pemilik**: [Rezza Rahayu, 0815-7368-4428]
 - **Jenis Usaha**: [Laundry]
 
 ## Driving Question
