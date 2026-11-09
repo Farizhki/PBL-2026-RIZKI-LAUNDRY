@@ -11,7 +11,7 @@
 ## 1. Profil Organisasi / Unit Usaha
 
 - **Nama unit usaha**: Rizky Laundry
-- **Jenis usaha / layanan**: Jasa Laundry Kiloan & Satuan
+- **Jenis usaha / layanan**: Laundry
 - **Lokasi**: Jl. Tegal Mulyo No.RT05 RW06, Tamanan, Kec. Banguntapan, Kab. Bantul, Daerah Istimewa Yogyakarta 55191 (~300m selatan kampus)
 - **Deskripsi singkat operasional**: Laundry yang beroperasi setiap hari mulai pukul 07.00–21.00 WIB. Seluruh kegiatan operasional dilakukan langsung oleh pemilik laundry, mulai dari penerimaan pesanan pakaian, penimbangan, pencatatan transaksi di buku dan nota, proses pencucian, hingga penyerahan dan penerimaan pembayaran.
 - **Narahubung / pemilik**: Rezza Rahayu (pemilik), 082317480455
