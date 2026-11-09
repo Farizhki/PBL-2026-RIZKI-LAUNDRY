@@ -26,10 +26,11 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 
 | **Lapisan Arsitektur**                           | **Komponen Solusi Tim**                                             | **Keterangan & Batasan**                                           |
 | ------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **1\. Process Layer** _(Alur Kerja To-Be)_       | Alur pelayanan pesanan cucian: penerimaan pakaian, penimbangan, pemilihan paket layanan, kalkulasi tarif otomatis, konfirmasi status pembayaran, penyimpanan data transaksi, dan pencarian status pesanan saat pengambilan pakaian. | Menggantikan pencatatan manual buku besar; fokus pada pencatatan transaksi masuk pelanggan (pengelolaan stok & pengeluaran berada di luar cakupan). |
-| **2\. Data Layer** _(Struktur Data Logis)_       | Tabel Tarif Layanan (jenis paket & tarif dasar) dan Tabel Transaksi Pelanggan (ID Transaksi, Tanggal, Nama, No. HP, Paket, Berat/Jumlah, Total Harga, Status Pembayaran). | Disimpan dalam format data terstruktur (CSV / Spreadsheet); tidak ada tabel stok. |
-| **3\. Application Layer** _(Modul Program)_      | Modul Program: (1) Input Transaksi & Kalkulasi Biaya Otomatis, (2) Pencarian Data Transaksi & Pembaruan Status Pembayaran, (3) Ringkasan Rekapitulasi Transaksi Mingguan. | Antarmuka sederhana (CLI / Spreadsheet); tidak terintegrasi ke API payment gateway luar. |
-| **4\. Infrastructure Layer** _(Perangkat Fisik)_ | Perangkat laptop/PC pemilik (OS Windows 10/11), keyboard & mouse untuk input, timbangan cucian, dan smartphone untuk konfirmasi notifikasi WhatsApp ke pelanggan. | Beroperasi secara lokal (*standalone/offline*) pada perangkat laptop pemilik tanpa memerlukan server khusus. |
+| **1\. Process Layer** _(Alur Kerja To-Be)_       | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Alur transaksi kasir To-Be yang lebih efisien dibanding _As-Is_.   |                           |
+| **2\. Data Layer** _(Struktur Data Logis)_       | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Entitas data: Tabel Menu/Produk, Tabel Transaksi, & Tabel Stok.    |                           |
+| **3\. Application Layer** _(Modul Program)_      | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Modul Utama: Login, Input Transaksi, Hitung Total/Diskon, & Rekap. |                           |
+| **4\. Infrastructure Layer** _(Perangkat Fisik)_ | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Hardware: Laptop/Tablet POS; Net: Wi-Fi/4G; OS: Windows/Android.   |
+                           |
 
 #### **3\. SPESIFIKASI IPO (INPUT - PROCESSING - OUTPUT - STORAGE - CONTROL)**
 
