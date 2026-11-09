@@ -40,7 +40,7 @@
 | Indikator | Nilai/Baseline | Sumber Data | Tanggal |
 |---|---|---|---|
 | Waktu layanan transaksi rata-rata | 2 menit/pelanggan | Pemilik laundry (Wawancara 1 & Observasi) | 07/10/2026 |
-| Jumlah transaksi per hari | 4–7 orang/hari | Pemilik laundry (Wawancara 1) | 07/10/2026 |
+| Jumlah pelanggan pada jam sibuk | 4–7 orang/hari | Pemilik laundry (Wawancara 1) | 07/10/2026 |
 | Frekuensi kesalahan pencatatan/selisih hitung | 1–2 kali/bulan | Pemilik laundry (Wawancara 1 & 2) | 07/10/2026 |
 
 ## 5. Pernyataan Kebutuhan Awal (ringkasan ke D2)
