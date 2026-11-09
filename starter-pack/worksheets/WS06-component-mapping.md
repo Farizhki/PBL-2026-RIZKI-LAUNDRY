@@ -14,10 +14,10 @@ Keterkaitan Deliverable: **Bahan Utama Deliverable D1 Final (TPL-01) & D2 Draf (
 - **Objek UMKM Mitra**: Rizky Laundry
 - **Phase Lead 3 (Define)**: Deva Nayla Maisya (2600016039)
 - **Anggota Tim**: 
-  1. M. Zacky Alfattah (2600016015)
-  2. M. Faris Ilham (2600016014)
-  3. Farizhki (2600016027)
-  4. Mutia Fatmawati (2600016049)
+1. M. Zacky Alfattah (2600016015)
+2. M. Faris Ilham (2600016014)
+3. Farizhki (2600016027)
+4. Mutia Fatmawati (2600016049)
 
 ### **2\. Landasan Konseptual: Metrik BPI & Pemetaan 5 Pilar SI**
 
