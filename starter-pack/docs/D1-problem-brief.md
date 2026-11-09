@@ -28,7 +28,6 @@
   1. Pencatatan data transaksi pesanan pelanggan secara terstruktur (nama, nomor telepon, pilihan paket layanan, berat/satuan, dan kalkulator hitung otomatis total harga).
   2. Pencatatan dan pembaruan status pembayaran (lunas, belum lunas, DP).
   3. Pencarian data transaksi pelanggan berdasarkan nama atau nomor telepon.
-  4. Pembuatan ringkasan rekapitulasi transaksi mingguan.
 - **Tidak diselesaikan (dan alasan)**: 
   1. Integrasi gateway pembayaran online / QRIS otomatis.
   2. Rekapitulasi pengeluaran operasional (fokus utama proyek adalah pencatatan transaksi masuk dan status pembayaran pelanggan, serta memerlukan struktur data yang berbeda).
