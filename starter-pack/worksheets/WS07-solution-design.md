@@ -15,10 +15,10 @@
 
 #### **1\. IDENTIFIKASI KELOMPOK & SOLUSI**
 
-- **Nama Tim**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Nama UMKM Mitra**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Judul Solusi SI**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Phase Lead 4 (Design)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
+- **Nama Tim**: Kelompok Tulip / Kelas A
+- **Nama UMKM Mitra**: Rizky Laundry
+- **Judul Solusi SI**: Sistem Pencatatan dan Pencarian Transaksi Rizky Laundry
+- **Phase Lead 4 (Design)**: Farizhki (2600016027)
 
 #### **2\. PEMETAAN ARSITEKTUR 4 LAPISAN SI (M05)**
 
@@ -26,38 +26,33 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 
 | **Lapisan Arsitektur**                           | **Komponen Solusi Tim**                                             | **Keterangan & Batasan**                                           |
 | ------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **1\. Process Layer** _(Alur Kerja To-Be)_       | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Alur transaksi kasir To-Be yang lebih efisien dibanding _As-Is_.   |
-| ---                                              | ---                                                                 | ---                                                                |
-| **2\. Data Layer** _(Struktur Data Logis)_       | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Entitas data: Tabel Menu/Produk, Tabel Transaksi, & Tabel Stok.    |
-| ---                                              | ---                                                                 | ---                                                                |
-| **3\. Application Layer** _(Modul Program)_      | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Modul Utama: Login, Input Transaksi, Hitung Total/Diskon, & Rekap. |
-| ---                                              | ---                                                                 | ---                                                                |
-| **4\. Infrastructure Layer** _(Perangkat Fisik)_ | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Hardware: Laptop/Tablet POS; Net: Wi-Fi/4G; OS: Windows/Android.   |
-| ---                                              | ---                                                                 | ---                                                                |
+| **1\. Process Layer** _(Alur Kerja To-Be)_       | Alur pelayanan pesanan cucian: penerimaan pakaian, penimbangan, pemilihan paket layanan, kalkulasi tarif otomatis, konfirmasi status pembayaran, penyimpanan data transaksi, dan pencarian status pesanan saat pengambilan pakaian. | Menggantikan pencatatan manual buku besar; fokus pada pencatatan transaksi masuk pelanggan (pengelolaan stok & pengeluaran berada di luar cakupan). |
+| **2\. Data Layer** _(Struktur Data Logis)_       | Tabel Tarif Layanan (jenis paket & tarif dasar) dan Tabel Transaksi Pelanggan (ID Transaksi, Tanggal, Nama, No. HP, Paket, Berat/Jumlah, Total Harga, Status Pembayaran). | Disimpan dalam format data terstruktur (CSV / Spreadsheet); tidak ada tabel stok. |
+| **3\. Application Layer** _(Modul Program)_      | Modul Program: (1) Input Transaksi & Kalkulasi Biaya Otomatis, (2) Pencarian Data Transaksi & Pembaruan Status Pembayaran, (3) Ringkasan Rekapitulasi Transaksi Mingguan. | Antarmuka sederhana (CLI / Spreadsheet); tidak terintegrasi ke API payment gateway luar. |
+| **4\. Infrastructure Layer** _(Perangkat Fisik)_ | Perangkat laptop/PC pemilik (OS Windows 10/11), keyboard & mouse untuk input, timbangan cucian, dan smartphone untuk konfirmasi notifikasi WhatsApp ke pelanggan. | Beroperasi secara lokal (*standalone/offline*) pada perangkat laptop pemilik tanpa memerlukan server khusus. |
 
 #### **3\. SPESIFIKASI IPO (INPUT - PROCESSING - OUTPUT - STORAGE - CONTROL)**
 
-##### **Fitur Fungsional Utama 1: \[Tuliskan Nama Fitur, misal: Pencatatan Transaksi Penjualan\]**
+##### **Fitur Fungsional Utama 1: Pencatatan Transaksi Pesanan & Kalkulasi Biaya Otomatis**
 
-- **Input**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Processing**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Output**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Storage**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Control (Error Handling)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
+- **Input**: Nama pelanggan, nomor telepon, jenis paket layanan (express, komplit, cuci saja, setrika saja, atau satuan sprei/selimut), berat pakaian (kg) atau jumlah satuan (pcs), dan status pembayaran (lunas, belum lunas, atau DP).
+- **Processing**: Memvalidasi data input, mengalikan berat atau jumlah satuan dengan tarif paket yang dipilih, menghitung total harga tagihan secara otomatis, dan mencatat waktu transaksi.
+- **Output**: Tampilan rincian tagihan transaksi pesanan di layar dan pesan konfirmasi bahwa data transaksi berhasil disimpan.
+- **Storage**: Berkas data transaksi terstruktur (lembar data spreadsheet).
+- **Control (Error Handling)**: Validasi data wajib (nama tidak boleh kosong, berat/jumlah harus berupa angka > 0); jika input tidak valid sistem akan menampilkan input tidak valid, Transaksi tidak dapat disimpan.
+##### **Fitur Fungsional Utama 2: Pencarian Data Transaksi & Pembaruan Status Pembayaran**
 
-##### **Fitur Fungsional Utama 2: \[Tuliskan Nama Fitur, misal: Rekapitulasi Laporan Laba Harian\]**
-
-- **Input**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Processing**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Output**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Storage**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
-- **Control (Error Handling)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__
+- **Input**: Kata kunci pencarian (Nama pelanggan atau Nomor telepon).
+- **Processing**: Menelusuri berkas data transaksi berdasarkan nama atau nomor telepon yang cocok, menampilkan informasi transaksi yang ditemukan, dan memperbarui kolom status pembayaran.
+- **Output**: Tampilan rincian transaksi pesanan pelanggan (nama, tanggal, paket, berat, total harga, status pembayaran) dan pesan konfirmasi pembaruan status berhasil.
+- **Storage**: Memperbarui status pembayaran pada baris data transaksi terkait di berkas data (lembar spreadsheet).
+- **Control (Error Handling)**: Jika nama atau nomor telepon tidak ditemukan di data, sistem menampilkan pesan bahwa data tidak ditemukan tanpa menyebabkan program terhenti (crash).
 
 #### **4\. DIAGRAM ALIR (FLOWCHART) LOGIKA PROGRAM**
 
 _Petunjuk: Gambarkan diagram alir terstruktur menggunakan simbol standar (Persegi Panjang = Proses, Belah Ketupat = Keputusan IF-ELSE, Jajar Genjang = Input/Output, Oval = Start/End). Lampirkan hasil gambaran digital/foto kertas A3 di bawah ini._
 
-\[ TEMPELKAN GAMBAR DIAGRAM FLOWCHART DIGITAL / FOTO DRAF A3 DI SINI \]
+[ TEMPELKAN GAMBAR DIAGRAM FLOWCHART DIGITAL / FOTO DRAF A3 DI SINI ]
 
 
 
@@ -110,6 +105,6 @@ ALUR LOGIKA:
 - Pseudocode terstruktur dengan rapi dan independen terhadap bahasa pemrograman.
 - Form **TPL-07 (AI Usage Disclosure & Verification Note)** telah dilampirkan.
 
-**Tanggal Pengesahan**: \_**\_**\_**\_**\_**\_**\__  
-**Tanda Tangan Phase Lead 4 (Design)**: \_**\_**\_**\_**\_**\_**\__  
-**Tanda Tangan Dosen Pembimbing / Coach**: \_**\_**\_**\_**\_**\_**\__
+**Tanggal Pengesahan**: ________________  
+**Tanda Tangan Phase Lead 4 (Design)**: ________________  
+**Tanda Tangan Dosen Pembimbing / Coach**: ________________
