@@ -12,10 +12,10 @@
 
 | **Elemen Informasi**          | **Rincian Identitas Kelompok & Mitra** |
 | ----------------------------- | -------------------------------------- |
-| **Nama Kelompok / Kelas**     | Kelompok Tulip                         |
+| **Nama Kelompok / Kelas**     | Kelompok Tulip / Kelas A               |
 | **Phase Lead 2 (Frame - M2)** | Mutia Fatmawati — 2600016049           |
 | **Nama UMKM Mitra Lapangan**  | Rizky Laundry                          |
-| **Pemilik / Kontak Mitra**    | Rezza Rahayu                           |
+| **Pemilik / Kontak Mitra**    | Rezza Rahayu (082317480455)            |
 
 ## **2\. Matriks Problem Framing & Analisis Akar Masalah (Root Cause Analysis)**
 
@@ -23,9 +23,9 @@ Gunakan temuan kuantitatif dari WS03 untuk memisahkan antara **Gejala Permukaan 
 
 | **No** | **Kategori Observasi**      | **Gejala Permukaan (_Symptoms_)**                                                                            | **Akar Masalah Operasional (_Root Cause_)**                                                                                                                                    | **Bukti Kuantitatif (_Baseline Data_)**                                                          |
 | ------ | --------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| **1**  | **Proses Transaksi Kasir**  | Pencatatan transaksi masih dilakukan secara manual.                                                          | Belum ada sistem pencatatan transaksi dan penghitungan total harga yang terstruktur oleh mitra sehingga masih dilakukan manual di buku dan nota.                               | Rata-rata waktu transaksi = **2 menit/orang**                                                    |
-| **2**  | **Pengelolaan Stok Barang** | Pembelian bahan baku dilakukan ketika pemilik melihat stock menipis atau habis.                              | Pencatatan stok belum dicatat secara terstruktur untuk memantau persediaan.                                                                                                    | Belum ada data kuantitatif mengenai pengelolaan stock barang persediaan dan pembelian kebutuhan. |
-| **3**  | **Rekapitulasi Keuangan**   | Pemilik hanya melakukan rekapitulasi pengeluaran setiap minggu, dan jarang melakukan rekapitulasi transaksi. | Pemilik tidak melakukan rekapitulasi transaksi karena terdapat pelanggan yang belum melunasi pembayaran yang membuat pemilik membuat pemilik memilih untuk tidak melakukannya. | Durasi rekapitulasi penggeluaran mingguan = **<30 menit/minggu**.                               |
+| **1**  | **Proses Transaksi Kasir**  | Pencatatan transaksi masih dilakukan secara manual menggunakan nota dan buku besar.                         | Belum ada sistem pencatatan transaksi terstruktur dan penghitungan harga otomatis, sehingga perhitungan manual memakan waktu dan berisiko salah hitung.                         | Rata-rata waktu transaksi = **2 menit (120 detik)/orang**.                                       |
+| **2**  | **Pencarian Data Pelanggan**| Pemilik harus membalik-balik buku besar lembar demi lembar saat pelanggan mengambil pakaian.               | Data transaksi tidak terindeks digital sehingga pencarian status pembayaran dan data pelanggan lambat dan merepotkan.                                                         | Pencarian status pembayaran manual dilakukan pada setiap pengambilan cucian.                     |
+| **3**  | **Rekapitulasi Transaksi**  | Pemilik jarang merekap transaksi berkala; hanya rekap pengeluaran yang dilakukan rutin seminggu sekali.     | Rekapitulasi transaksi belum terlaksana karena terhambat status cucian pelanggan yang belum lunas, sehingga pemilik kesulitan mengakumulasi total penerimaan secara manual.    | Rekapitulasi transaksi harian/mingguan belum berjalan teratur.                                   |
 
 ## **3\. Perumusan Problem Statement Kontekstual**
 
@@ -33,31 +33,31 @@ Berdasarkan analisis di atas, rumuskan **Problem Statement** utama dalam 1–2 p
 _Petunjuk_: Hindari mendefinisikan masalah sebagai _"Mitra belum memiliki aplikasi Python/komputer"_. Definisikan dari hambatan bisnis nyata mitra!
 
 **Rumusan Problem Statement Kelompok**:  
-"Pencatatan transaksi dan pengeluaran masih dilakukan secara manual menggunakan buku dan kertas nota di Rezza Laundry. Dengan pencatatan stock yang masih belum terstruktur untuk memantau persediaan, sehingga pembelian barang dilakukan ketika pemilik melihat persediaan menipis atau sudah habis.
+"Pencatatan transaksi pesanan pelanggan masih dilakukan secara manual menggunakan buku catatan dan kertas nota di Rizky Laundry. Ketiadaan kalkulasi otomatis berisiko menimbulkan kesalahan hitung tarif (1–2 kali per bulan) dan memerlukan waktu pencatatan rata-rata 2 menit per transaksi.
 
-Sistem pencarian data pelanggan masih dilakukan secara manual, yaitu dengan menelusuri buku catatan untuk memastikan status pembayaran pelanggan saat mengambil pesanan.
+Selain itu, sistem pencarian status pesanan pelanggan masih dilakukan secara manual dengan menelusuri halaman buku catatan satu per satu saat pelanggan datang mengambil pakaian. Di sisi lain, pemilik belum dapat melakukan rekapitulasi transaksi secara rutin karena terkendala oleh status cucian pelanggan yang belum melunasi pembayaran saat transaksi awal dicatat."
 
-Di sisi lain, pemilik juga hanya melakukan rekapitulasi pengeluaran rutin setiap minggu tanpa melakukan rekapitulasi transaksi secara rutin. Karena masih terdapat pelanggan yang belum melunasi pembayaran."
+## **4\. Menetapkan Batasan Sistem (System Boundary / Scope Alignment)**
 
-4. Menetapkan Batasan Sistem (System Boundary / Scope Alignment)
-Untuk mencegah terjadinya pembengkakan fitur (Scope Creep) yang membahayakan penyelesaian proyek dalam 1 semester, tentukan secara tegas apa yang Masuk Cakupan (In-Scope) dan apa yang Di Luar Cakupan (Out-of-Scope):
+Untuk mencegah terjadinya pembengkakan fitur (_Scope Creep_) yang membahayakan penyelesaian proyek dalam 1 semester, tentukan secara tegas apa yang Masuk Cakupan (_In-Scope_) dan apa yang Di Luar Cakupan (_Out-of-Scope_):
 
- ```text
+```text
 +-----------------------------------------------------------------------------+
 |                      SYSTEM BOUNDARY (BATASAN SISTEM)                       |
 +-----------------------------------------------------------------------------+
 | [ IN-SCOPE: Fitur yang Akan Dibangun ]                                      |
-| 1. Pencatatan transaksi pelanggan.                                          |
-| 2. Pencatatan status pembayaran.                                            |
-| 3. Pencarian data transaksi.                                                |
-| 4. Pencetakan ringkasan rekapitulasi mingguan untuk pemilik.                |
+| 1. Pencatatan transaksi pelanggan (dilengkapi kalkulator hitung otomatis).  |
+| 2. Pencatatan dan pembaruan status pembayaran (lunas, belum lunas, DP).    |
+| 3. Pencarian data transaksi berdasarkan nama atau nomor telepon.            |
+| 4. Pencetakan ringkasan rekapitulasi transaksi mingguan untuk pemilik.      |
 +-----------------------------------------------------------------------------+
 | [ OUT-OF-SCOPE: Di Luar Cakupan Proyek ]                                    |
 | 1. Integrasi gateway pembayaran e-wallet / QRIS otomatis.                   |
-| 2. Rekapitulasi pengeluaran.                                                |
-| 3. Pemesanan stok otomatis.                                                 |
+| 2. Rekapitulasi pengeluaran operasional usaha.                              |
+| 3. Pemesanan dan manajemen stok barang otomatis.                            |
 +-----------------------------------------------------------------------------+
 ```
+
 ### **Tabel Penegasan Cakupan Proyek (*Scope Alignment Table*)**
 
 | **No** | **Modul / Fitur Sistem**            | **Status Cakupan (_In-Scope / Out-of-Scope_)** | **Alasan Pertimbangan Kelayakan (O'Brien)**                                                                                                                                          |
@@ -67,18 +67,17 @@ Untuk mencegah terjadinya pembengkakan fitur (Scope Creep) yang membahayakan pen
 | **3**  | Pencarian data transaksi            | **IN-SCOPE**                                   | Membantu pemilik agar lebih mudah menemukan data pelanggan tanpa harus membuka dan mencari data pelanggan secara manual di buku besar.                                               |
 | **4**  | Pembayaran Online / Payment Gateway | **OUT-OF-SCOPE**                               | Keterbatasan waktu 1 semester & kompleksitas API luar di PBL Level 1.                                                                                                                |
 | **5**  | Rekapitulasi pengeluaran            | **OUT-OF-SCOPE**                               | Rekapitulasi pengeluaran tidak dilakukan karena focus utama pada pencatatan transaksi, juga karena rekapitulasi pengeluaran membutuhkan data yang berbeda dari pencatatan transaksi. |
-| **6**  | Pemesanan stock otomatis            | **OUT-OF-SCOPE**                               | Pembelian masih dilakukan ketika diketahui stock menipis atau habis, juga karena belum ada pencatatan stock yang terstruktur.                                                        |
+| **6**  | Pemesanan stock otomatis            | **OUT-OF-SCOPE**                               | Pembelian masih dilakukan ketika diketahui stock menipis atau habis, juga karena belum ada pencatatan stock yang terstruktur.                                                        |                                                |
 
 ## **5\. Target Metrik Keberhasilan Solusi (To-Be Targets)**
 
 Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem informasi To-Be:
 
-.
-
-| **Indikator Kinerja**               | **Kondisi As-Is (Baseline)** | **Target To-Be (Expected)** | **Estimasi Persentase Peningkatan**      |
-| ----------------------------------- | ---------------------------- | --------------------------- | ---------------------------------------- |
-| **Waktu Pelayanan Transaksi Kasir** | 120 detik / pelanggan         | **< 70 detik / pelanggan**  | Peningkatan efisiensi **50.%**          |
-| **Frekuensi Kesalahan Pencatatan/Selisih**         | Sekitar 1-2 / bulan          | **Mengurangi Frekuensi Pencatatan**           | Penurunan tingkat frekuensi kesalahan Pencatatan/selisih |
+| **Indikator Kinerja**                            | **Kondisi As-Is (Baseline)** | **Target To-Be (Expected)** | **Estimasi Persentase Peningkatan**                      |
+| ------------------------------------------------ | ---------------------------- | --------------------------- | -------------------------------------------------------- |
+| **Waktu Pelayanan Transaksi Kasir**              | 120 detik / pelanggan        | **< 70 detik / pelanggan**  | Efisiensi waktu pelayanan **41.7%**                     |
+| **Durasi Pencarian Status Transaksi Pelanggan**  |  / pencarian manual | ** / pencarian**  | Efisiensi pencarian data > ****                       |
+| **Frekuensi Kesalahan Pencatatan/Selisih**   | 1–2 kali / bulan             | **Mengurangi Frekuensi Pencatatan** | Penurunan tingkat frekuensi kesalahan Pencatatan/selisih |
 
 ## **6\. Refleksi & Lembar Pengesahan Phase Lead**
 
@@ -91,15 +90,15 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 
 ### **B. Tanda Tangan Pengesahan Phase Lead 2**
 
-Disusun oleh Phase Lead 2 (Frame): [ Mutia Fatmawati — 2600016049 ]
+Disusun oleh Phase Lead 2 (Frame): Mutia Fatmawati — 2600016049  
+
+Tanggal Penyusunan: 19/10/2026  
+
+Tanda Tangan Phase Lead 2: [Tanda Tangan Digital](../assets/tanda_tangan/Tanda%20tangan%20Mutia.jpeg)  
+
+Diverifikasi oleh Dosen Pengampu / Coach:  
+
+Tanggal: 20/10/2026 | Status Checkpoint: [ APPROVED ]  
+Catatan Dosen: Disetujui untuk lanjut ke Fase 3 (Define).  
 
 ---
-
-Tanggal Penyusunan: [ 19/10/2026 ]
-
-Tanda Tangan Phase Lead 2: [Tanda Tangan Digital](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/8a9ce284bf71a97ea6a02604783b00ed73916244/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Mutia.jpeg)
-
-Diverifikasi oleh Dosen Pengampu / Coach:
-
-Tanggal: [ 20/10/2026 ] | Status Checkpoint: [ APPROVED ]
-Catatan Dosen: __________________________________________________
