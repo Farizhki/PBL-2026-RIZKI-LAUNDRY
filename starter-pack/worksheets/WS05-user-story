@@ -1,0 +1,81 @@
+# **WORKBOOK: LEMBAR KERJA MAHASISWA WS05**
+
+## **Formulasi Kebutuhan Fungsional: User Story & Acceptance Criteria**
+
+Mata Kuliah: **Konsep Sistem Informasi (KSI)**  
+Kerangka Kerja: **Project-Based Learning (PBL) Level 1**  
+Fase Learning Spine: **Fase 3 — Define (Minggu 3)**  
+Sub-CPMK / SFIA: **S-01.1 (Intermediate - Problem Framing) & S-03.1 (Intermediate - Pemetaan SI)** | **SFIA BUSA L1, REQM L2**  
+Keterkaitan Deliverable: **Bahan Utama Deliverable D2 (System & Solution Design - TPL-02)**
+
+### **1\. Identifikasi Kelompok & Rotasi Kepemimpinan**
+
+- **Nama Kelompok**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\____
+- **Objek UMKM Mitra**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\____
+- **Phase Lead 3 (Define)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\____ (Mahasiswa C)
+- **Anggota Tim**: 1. \_**\_**\_**\_**\_**\_**_2. \_**\_**\_**\_**\_**\_**_ 3. \_**\_**\_**\_**\_**\_**_
+
+### **2\. Landasan Konseptual: Analisis Sistem "What" vs "How"**
+
+Dalam tahap _Systems Analysis_, fokus utama tim adalah menentukan **APA (_What_)** yang dibutuhkan pengguna bisnis untuk memecahkan masalahnya, **BUKAN BAGAIMANA (_How_)** sistem dibangun secara teknis (Marakas & O'Brien, 2013).
+
+- **User Story** merepresentasikan kebutuhan fungsional dari sudut pandang pengguna bisnis dengan pola:  
+  \$\$\\text{"Sebagai \[Peran Pengguna\], Saya ingin \[Kemampuan/Fitur\], Sehingga \[Manfaat Bisnis Nyata\]"}\$\$
+- **Acceptance Criteria (Given-When-Then)** mendefinisikan batas kondisi kapan sebuah fitur dinyatakan selesai dan memenuhi syarat penerimaan pengguna (Rainer et al., 2021).
+
+### **3\. Workspace A: Formulasi User Story Fungsional**
+
+Petakan minimal **3 User Story Utama** yang langsung menjawab akar masalah pada D1 / WS04:
+
+#### **User Story 1 (Prioritas Utama / Core Feature)**
+
+- **Sebagai (_As a_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Kasir Toko Kelontong)_
+- **Saya ingin (_I want to_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___\__ _(misal: mencatat transaksi penjualan dengan memilih barang dari daftar dan menghitung total otomatis)_
+- **Sehingga (_So that_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ _(misal: waktu transaksi berkurang dan tidak terjadi kesalahan hitung uang kembalian)_
+
+#### **User Story 2 (Fitur Manajemen Stok / Data)**
+
+- **Sebagai (_As a_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Pemilik Usaha UMKM)_
+- **Saya ingin (_I want to_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___\__ _(misal: melihat jumlah stok barang yang tersisa secara real-time dan mendapatkan peringatan stok menipis)_
+- **Sehingga (_So that_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ _(misal: saya dapat melakukan pemesanan ulang barang tepat waktu sebelum stok habis)_
+
+#### **User Story 3 (Fitur Pelaporan / Informasi)**
+
+- **Sebagai (_As a_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Pemilik Usaha UMKM)_
+- **Saya ingin (_I want to_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___\__ _(misal: melihat ringkasan total pendapatan harian dan daftar 3 barang terlaris)_
+- **Sehingga (_So that_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ _(misal: saya tidak perlu menghitung nota fisik secara manual selama 1.5 jam setiap malam)_
+
+### **4\. Workspace B: Acceptance Criteria Berbasis Skenario (Given-When-Then)**
+
+Susun kriteria penerimaan terstruktur untuk **User Story 1** (mencakup Skenario Sukses dan Skenario Penanganan Eror):
+
+#### **Skenario 1A: Transaksi Penjualan Berhasil (Happy Path)**
+
+- **Diberikan (_Given_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___ _(misal: Kasir berada di layar utama transaksi dan stok produk "Teguk Boba" tersedia sebanyak 10 unit)_
+- **Ketika (_When_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Kasir memasukkan jumlah pesanan 2 unit dan mengklik tombol bayar dengan nominal pas)_
+- **Maka (_Then_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**_ _(misal: Sistem menampilkan bukti transaksi sukses, menghitung kembalian Rp 0, dan mengurangi stok otomatis menjadi 8 unit)_
+
+#### **Skenario 1B: Penanganan Pembayaran Kurang / Eror (Exception Path)**
+
+- **Diberikan (_Given_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\___ _(misal: Total belanja transaksi adalah Rp 35.000)_
+- **Ketika (_When_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_** _(misal: Kasir memasukkan nominal pembayaran Rp 30.000)_
+- **Maka (_Then_)**: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**_ _(misal: Sistem menolak transaksi, menampilkan pesan eror "Nominal pembayaran kurang Rp 5.000", dan stok barang tidak berkurang)_
+
+### **5\. Workspace C: Catatan Validasi Kebutuhan dengan Mitra (Field Confirmation)**
+
+- **Tanggal Validasi**: \_**\_**\_**\_**\_**\_**\__
+- **Narahubung Mitra**: \_**\_**\_**\_**\_**\_**\__ (Pemilik / Staf Kasir)
+- **Hasil Konfirmasi User Story**:  
+  \[ \] Seluruh User Story disetujui mitra  
+  \[ \] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
+
+### **6\. Verifikasi Integritas AI (TPL-07) & Pengesahan**
+
+- **Penggunaan AI Co-pilot**:  
+  Apakah tim menggunakan AI untuk membantu merumuskan skenario _Given-When-Then_? \[ \] Ya \[ \] Tidak  
+  _(Jika Ya, wajib melampirkan formulir_ **_TPL-07: AI Usage Disclosure & Verification Note_**_)_.
+
+**Tanda Tangan Tim & Pengesahan Dosen**:
+
+- **Phase Lead 3**: \_**\_**\_**\_**\_**\_**\_**\__ (Tanggal: \_**\_**\_**\_)
+- **Dosen Coach**: \_**\_**\_**\_**\_**\_**\_**\__ (Tanggal: \_**\_**\_**\_) \[ \] Approved
