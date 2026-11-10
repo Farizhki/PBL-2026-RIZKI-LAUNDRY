@@ -72,11 +72,14 @@ Gunakan lembar ini saat berada di lokasi mitra untuk mencatat secara kronologis 
   
   Pemilik menanyakan nama pelanggan untuk dicatat di nota beserta berat pakaian dan total harga. Data tersebut dicatat kembali pada buku besar bersama nomor handphone pelanggan. Pemilik menanyakan apakah pembayaran dilakukan langsung/saat pengambilan, (tunai / QRIS). Nota diserahkan ke pelanggan atau difoto via WhatsApp untuk layanan antar-jemput.
 
-- **Langkah 3 (Penyerahan Barang)** : Setelah pakaian selesai diproses, pemilik memberitahu pelanggan via WhatsApp. Penyerahan dilakukan melalui 2 cara:
-  1. *Pelanggan mengambil sendiri*: Pelanggan menyerahkan nota/menyebutkan nama. Pemilik mencari pakaian di rak lalu menelusuri buku besar untuk memastikan status pembayaran. Jika belum lunas, pelanggan membayar terlebih dahulu sebelum pakaian diserahkan.
-  2. *Diantar ke pelanggan*: Pemilik memeriksa status pembayaran di buku besar. Jika belum lunas, pelanggan diminta transfer terlebih dahulu sebelum pakaian diantar.
+- **Langkah 3 (Penyerahan Barang)** : Setelah pakaian selesai di proses pemilik laundry akan memberitahukan kepada pelanggan melalui whatsapp, kemudian melakukan penyerahan pakaian kepada pelanggan. Penyerahan pakaian kepada pelanggan di berikan 2 opsi pilihan, yaitu:
+1.	Pelanggan mengambil sendiri
+Pelanggan datang ke laundry dengan menyerahkan nota atau menyebutkan nama, kemudian pemilik mencari nama pelanggan pada rak yang berisi pakaian yang sudah diproses. Pemilik memeriksa buku besar untuk mencari data pelanggan dengan menelusuri buku catatan untuk memastikan status pembayaran pelanggan. Jika pelanggan belum membayar maka akan di arahkan untuk membayar, jika sudah maka pakaian diserahkan kepada pelanggan.
+2.	Diantar ke pelanggan
+Pemilik memeriksa buku besar untuk memeriksa status pemabayaran pelanggan. Jika belum lunas, pelanggan akan di minta melakukan pembayaran terlebih dahulu sebelum pakaian di antarkan. Jika sudah maka pemilik akan menyiapkan pakaian untuk kemudian diantarkan ke Alamat pelanggan.
 
-- **Langkah 4 (Pencatatan Stok & Rekap)** : Pemilik awalnya merencanakan 3 buku catatan (buku besar data pelanggan & transaksi, buku kecil urutan paket, dan buku pengeluaran operasional). Namun secara faktual harian, buku kecil sudah jarang diisi sehingga pemilik hanya aktif mengandalkan 2 buku (buku besar transaksi dan buku pengeluaran). Pencatatan dilakukan manual. Rekapitulasi pengeluaran rutin dilakukan seminggu sekali (<30 menit). Sebaliknya, rekapitulasi transaksi jarang dilakukan karena masih terdapat transaksi yang belum lunas sehingga pemilik kesulitan menghitung pendapatan bersih secara manual.
+
+- **Langkah 4 (Pencatatan Stok & Rekap)** : Pemilik menggunakan tiga buku untuk pencatatan, yaitu pada buku besar (buku data pelanggan dan pencatatan transaksi), buku kecil (buku urutan pelanggan berdasarkan paket dan kedatangan), dan buku pengeluaran untuk mencatat biaya operasional. Pencatatan masih dilakukan secara manual, dan pemilik melakukan rekap seminggu sekali pada buku pengeluaran. Sedangkan, rekap transaksi jarang dilakukan karena masih terdapat transaksi yang belum lunas, sehingga pemasukan dari transaksi masih belum tercatat sebagai pembayaran yang diterima.
 
 ### **B. Tabel Pengumpulan Data Kuantitatif Sederhana (Evidence)** 
 
@@ -92,7 +95,7 @@ Gunakan lembar ini saat berada di lokasi mitra untuk mencatat secara kronologis 
 ### **A. Pertanyaan Refleksi Tim** 
 
 1. _Apakah selama observasi lapangan ditemukan hal tak terduga yang belum tercakup dalam 10 pertanyaan wawancara awal?_ 
-   - **Jawab** : Temuan tak terduga yang kami temukan adalah pemilik belum memisahkan keuangan pribadi dengan keuangan usaha (pengeluaran pribadi dicatat bersama pengeluaran usaha). Pembelian bahan baku hanya dilakukan ketika stok habis tanpa catatan inventaris terstruktur. Secara faktual pemilik hanya aktif menggunakan 2 buku pencatatan. Sistem pencarian status pesanan masih sepenuhnya manual dengan membalik-balik halaman buku besar, dan pemilik enggan merekap transaksi secara berkala karena terhambat status cucian yang belum lunas.
+   - **Jawab** : Temuan tak terduga yang kami temukan adalah pemilik belum memisahkan keuangan pribadi dengan keuangan usaha (pengeluaran pribadi dicatat bersama pengeluaran usaha). Pembelian bahan baku hanya dilakukan ketika stok habis tanpa catatan inventaris terstruktur. Pencatatan menggunakan 3 buku. buku pertama digunakan untuk mencatat data pelanggan, buku kedua digunakan untuk mencatat urutan paket yang dipilih pelanggan (dari laundry express hingga laundry biasa), dan buku ketiga digunakan untuk mencatat pengeluaran. Juga Sistem pencarian data pelanggan masih dilakukan secara manual, yaitu dengan menelusuri buku catatan untuk memastikan status pembayaran pelanggan saat mengambil pesanan. Pemilik enggan merekap transaksi secara berkala karena terhambat status pembayaran yang belum lunas.
 
 2. _Bagaimana tim memastikan bahwa seluruh data transaksi dan profil mitra yang dikumpulkan tetap terjaga kerahasiaannya?_ 
    - **Jawab** : Kami memastikan data transaksi mitra tetap terjaga kerahasiaannya dengan hanya menanyakan data operasional yang diperlukan untuk kebutuhan rancangan sistem, serta tidak menyebarluaskan identitas maupun nomor kontak pelanggan mitra kepada pihak manapun.
@@ -124,26 +127,16 @@ Tanggal Observasi: 07 Oktober 2026
 
 | **No** | **Pertanyaan Wawancara** | **Responden** | **Hasil/Jawaban** |
 | ------ | ------------------------ | ------------- | ----------------- |
-| **1**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **2**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **3**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **4**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **5**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **6**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **7**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **8**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **9**  |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
-| **10** |                          |               |                   |
-| ---    | ---                      | ---           | ---               |
+| **1**  | Bagaimana alur transaksi harian berjalan dari pelanggan datang membawa pakaian sampai pesanan siap diambil kembali?                         |   Pemilik            | Pelanggan datang langsung atau menggunakan layanan jemput. Pemilik menanyakan jenis paket laundry, kemudian menimbang pakaian dan menghitung biaya berdasarkan paket, berat, atau jumlah barang tertentu seperti sprei dan selimut. Data pelanggan dan pesanan ditulis pada nota, lalu dicatat kembali ke buku besar. Pemilik menanyakan metode pembayaran, apakah dibayar langsung, atau nanti. Setelah pesanan selesai, pelanggan dihubungi melalui WhatsApp untuk mengambil pesanan atau menerima layanan antar. Sebelum pakaian diserahkan, pemilik memeriksa status pembayaran pada buku catatan.                  |
+| **2**  | Alat atau media apa yang digunakan saat ini untuk mencatat pesanan?                         |  Pemilik             |Pencatatan masih dilakukan secara manual menggunakan nota, buku besar, buku kecil untuk mencatat urutan pesanan, dan buku pengeluaran. Belum menggunakan Excel atau sistem pencatatan transaksi digital.                   |
+| **3**  | Hambatan atau kendala apa yang paling sering dialami saat melayani pelanggan?                         |  Pemilik             | Kendala yang dialami antara lain pencatatan dapat tertunda ketika sedang ramai, kesalahan dalam menghitung harga berdasarkan berat, serta kesalahan mendengar nomor telepon pelanggan. Nama pelanggan yang sama juga dapat menyebabkan kebingungan saat mencari pesanan. Selain itu, tidak adanya mesin pengering membuat proses laundry lebih lama ketika hujan.                  |
+| **4**  | Bagaimana cara pemilik memantau stok bahan baku (detergen, pewangi, dan plastik) agar tidak kehabisan mendadak?                         |  Pemilik             | Pemilik memeriksa kebutuhan bahan dan melakukan pembelian ketika diperlukan. Dalam wawancara tidak dijelaskan adanya pencatatan stok masuk dan stok keluar secara terstruktur.               |
+| **5**  | Berapa lama waktu yang dihabiskan setiap hari untuk merekap total pendapatan harian dan mencocokkannya dengan buku catatan?                         |  Pemilik             |Pembukuan dilakukan secara mingguan, biasanya pada Minggu malam atau Senin ketika pemilik memiliki waktu luang. Salah satu pemilik memperkirakan proses tersebut membutuhkan waktu tidak lebih dari sekitar 30 menit.                   |
+| **6**  | Seberapa sering terjadi kesalahan pencatatan harga, selisih hitung uang atau lupa mencatat transaksi?                         | pemilik              |Kesalahan yang pernah terjadi antara lain kesalahan menghitung harga berdasarkan berat pakaian, pencatatan pengeluaran yang terkadang baru dilakukan keesokan harinya, dan kesalahan mendengar nomor telepon pelanggan. Nama pelanggan yang sama juga dapat menimbulkan kebingungan ketika mencari pesanan. Namun, frekuensi pasti kesalahan tersebut tidak disebutkan dalam wawancara.                   |
+| **7**  | Laporan penjualan atau rekapitulasi apa yang dibutuhkan setiap minggu atau bulan untuk menilai keuntungan bisnis?                         | Pemilik              |Pemilik melakukan pencatatan pemasukan dan pengeluaran secara manual. Namun, uang pribadi dan uang usaha belum dipisahkan secara konsisten sehingga pencatatannya masih terasa membingungkan. Dalam wawancara belum disebutkan format laporan tertentu yang secara khusus dibutuhkan untuk menilai keuntungan bisnis.                  |
+| **8**  | Perangkat elektronik apa saja yang saat ini dimiliki dan aktif digunakan?                         | pemilik              | Perangkat elektronik yang disebutkan adalah telepon genggam dan laptop. Telepon genggam digunakan untuk berkomunikasi dengan pelanggan melalui WhatsApp, sedangkan laptop pernah digunakan untuk keperluan desain seperti banner dan QRIS.                  |
+| **9**  | Apakah staf saat ini terbiasa mengoperasikan aplikasi komputer atau ponsel untuk membantu pekerjaan sehari-hari?                         | Pemilik              |Pemilik sudah menggunakan telepon genggam dan laptop untuk beberapa keperluan sederhana. Namun, wawancara tidak menjelaskan secara khusus tingkat kemampuan pemilik dalam mengoperasikan aplikasi pencatatan transaksi                   |
+| **10** | Jika dibuatkan alat bantu sistem informasi sederhana, kemudahan atau fitur utama apa yang paling pemilik harapkan?                         |  Pemilik             | Pemilik menyambut adanya alat bantu sederhana karena pencatatan dan rekapitulasi masih dilakukan secara manual dan dirasa membingungkan. Namun, dalam wawancara belum disebutkan secara spesifik fitur apa saja yang diharapkan. Kebutuhan fitur perlu dikonfirmasi kembali kepada pemilik.                  |
 
 ##
 
@@ -153,20 +146,16 @@ Tanggal Observasi: 07 Oktober 2026
 
 **Jika perlu gambarkan dalam bentuk diagram urutan/tahapan proses yang menggambarkan transaksi yang diamati.**
 
-- **Langkah 1 (Input Pesanan)**: \[ Catat bagaimana kasir menerima pesanan dan menuliskan nota \]
-- **Langkah 2 (Kalkulasi & Pembayaran)**: \[ Catat alat bantu hitung dan cara penerimaan uang/kembalian \]
-- **Langkah 3 (Penyerahan Barang)**: \[ Catat alur penyerahan produk ke pelanggan \]
-- **Langkah 4 (Pencatatan Stok & Rekap)**: \[ Catat alur pengisian buku stok dan rekapitulasi harian \]
+- **Langkah 1 (Input Pesanan)**: \[ Pelanggan datang langsung atau menggunakan layanan jemput. Pemilik menanyakan paket laundry, menimbang pakaian, serta menanyakan apakah terdapat barang seperti sprei atau selimut yang dihitung per item. Nama dan rincian pesanan ditulis pada nota, kemudian dicatat kembali ke buku besar. \]
+- **Langkah 2 (Kalkulasi & Pembayaran)**: \[ Biaya dihitung berdasarkan jenis paket, berat, atau jumlah barang. Pemilik menanyakan apakah pelanggan akan membayar langsung, atau membayar nanti. Pembayaran dapat dilakukan secara tunai atau melalui QRIS. Pesanan express diprioritaskan sesuai kapasitas laundry. \]
+- **Langkah 3 (Penyerahan Barang)**: \[ Setelah pesanan selesai, pelanggan dihubungi melalui WhatsApp. Pelanggan dapat mengambil sendiri atau menggunakan layanan antar. Sebelum pakaian diserahkan atau diantar, pemilik memeriksa catatan pembayaran pada buku besar. Jika masih ada pembayaran yang belum diselesaikan, pemilik mengonfirmasi pembayaran kepada pelanggan dan pelanggan diarahkan untuk melakukan pembayaran terlebih dahulu. \]
+- **Langkah 4 (Pencatatan Stok & Rekap)**: \[ Pencatatan dilakukan menggunakan buku besar, buku kecil untuk urutan pesanan, dan buku pengeluaran. Pembukuan dilakukan secara mingguan. Pemilik membeli bahan laundry ketika diperlukan dan belum dijelaskan adanya pencatatan stok masuk dan keluar secara terstruktur. \]
 
 **Lembar observasi** (hal yang diamati):
 
 | **Aspek yang Diamati**                          | **Temuan di Lapangan (Evidence)** |
 | ----------------------------------------------- | --------------------------------- |
-| Alur pelayanan utama                            |                                   |
-| ---                                             | ---                               |
-| Titik antrean/hambatan                          |                                   |
-| ---                                             | ---                               |
-| Data/angka yang terlihat (harga, jumlah, waktu) |                                   |
-| ---                                             | ---                               |
-| Peran orang yang terlibat                       |                                   |
-| ---                                             | ---                               |
+| Alur pelayanan utama                            | Pelanggan memilih paket dan menyerahkan pakaian. Pemilik menimbang, menghitung biaya, mencatat pesanan, menerima pembayaran, memproses laundry, menghubungi pelanggan melalui WhatsApp, kemudian menyerahkan atau mengantarkan pakaian.                                    |
+| Titik antrean/hambatan                          | Pencatatan manual dapat tertunda ketika pemilik sedang sibuk. Kesalahan perhitungan harga dan nomor telepon dapat terjadi. Nama pelanggan yang sama juga dapat menyulitkan pencarian pesanan. Proses pengeringan lebih lama ketika hujan karena tidak tersedia mesin pengering.                                  |
+| Data/angka yang terlihat (harga, jumlah, waktu) | Express Rp8.000/kg, komplit Rp6.000/kg, cuci kering saja Rp4.000/kg, setrika saja Rp5.000/kg, sprei/selimut kecil Rp5.000/item dan ukuran sedang/besar Rp10.000/item. Jumlah pelanggan rata-rata sekitar 4–7 orang per hari dan dapat mencapai sekitar 15–16 orang pada hari ramai. Ketika hujan, proses dapat berlangsung sekitar 4–5 hari.                                   |
+| Peran orang yang terlibat                       | Kegiatan operasional dan pencatatan dilakukan oleh pemilik, yaitu pasangan suami istri. Pelanggan berperan memilih paket, memberikan data pesanan, melakukan pembayaran, serta mengambil atau menerima pesanan                                  |
