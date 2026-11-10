@@ -66,26 +66,26 @@ Susun kriteria penerimaan terstruktur untuk **User Story 1** (mencakup Skenario 
 - **Diberikan (_Given_)**:  
  Pemilik sedang mencatat transaksi pelanggan
 - **Ketika (_When_)**:  
-  Pemilik memasukkan data pelanggan (nama, nomor telepon), memilih paket layanan (express, komplit, cuci saja, setrika saja, atau satuan), memasukkan berat/jumlah satuan, serta status pembayaran,  pemilik menekan tombol simpan.
+  Pemilik memasukkan data pelanggan (nama, nomor telepon), memilih paket layanan (express, komplit, cuci saja, setrika saja, atau satuan), memasukkan berat/jumlah satuan, serta status pembayaran, menampilkan nota.
 - **Maka (_Then_)**:  
- Kemudian sistem menyimpan transaksi dan menampilkan pesan transaksi berhasil.
+ Kemudian sistem menyimpan transaksi.
 
 #### **Skenario 1B: Penanganan / Eror (Exception Path)**
 
 - **Diberikan (_Given_)**:
 Pemilik sedang mencatat transaksi pelanggan.
 - **Ketika (_When_)**:
-Pemilik menekan tombol simpan tanpa mengisi data pelanggan.
+Pemilik memasukan data yang tidak sesuai dengan ketentuan input.
 - **Maka (_Then_)**:
-Sistem menampilkan bahwa data belum lengkap dan tidak dapat disimpan.
+Sistem menampilkan bahwa data belum lengkap.
 
 ### **5\. Workspace C: Catatan Validasi Kebutuhan dengan Mitra (Field Confirmation)**
 
-- **Tanggal Validasi**: _______________
+- **Tanggal Validasi**: 10/11/2026
 - **Narahubung Mitra**: Rezza Rahayu (Pemilik)
 - **Hasil Konfirmasi User Story**:  
-  [ ] Seluruh User Story disetujui mitra  
-  [ ] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
+  [✓] Seluruh User Story disetujui mitra  
+  [✓] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
 
 ### **6\. Verifikasi Integritas AI (TPL-07) & Pengesahan**
 
@@ -96,4 +96,4 @@ Sistem menampilkan bahwa data belum lengkap dan tidak dapat disimpan.
 **Tanda Tangan Tim & Pengesahan Dosen**:
 
 - **Phase Lead 3**: Deva Nayla Maisya (Tanggal: 19/10/2026)
-- **Dosen Coach**: (Tanggal: _______________) [ ] Approved
+- **Dosen Coach**: (Tanggal: 10/11/2026) [✓] Approved
