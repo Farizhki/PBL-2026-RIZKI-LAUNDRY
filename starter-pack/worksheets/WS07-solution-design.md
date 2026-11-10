@@ -16,7 +16,7 @@
 #### **1\. IDENTIFIKASI KELOMPOK & SOLUSI**
 
 - **Nama Tim**: Kelompok Tulip / Kelas A
-- **Nama UMKM Mitra**: Rizky Laundry
+- **Nama UMKM Mitra**: Rizky Laundry.
 - **Judul Solusi SI**: Sistem Pencatatan dan Pencarian Transaksi Rizky Laundry
 - **Phase Lead 4 (Design)**: Farizhki (2600016027)
 
