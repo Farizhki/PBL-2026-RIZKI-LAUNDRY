@@ -26,11 +26,10 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 
 | **Lapisan Arsitektur**                           | **Komponen Solusi Tim**                                             | **Keterangan & Batasan**                                           |
 | ------------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **1\. Process Layer** _(Alur Kerja To-Be)_       | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Alur transaksi kasir To-Be yang lebih efisien dibanding _As-Is_.   |                           |
-| **2\. Data Layer** _(Struktur Data Logis)_       | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Entitas data: Tabel Menu/Produk, Tabel Transaksi, & Tabel Stok.    |                           |
-| **3\. Application Layer** _(Modul Program)_      | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Modul Utama: Login, Input Transaksi, Hitung Total/Diskon, & Rekap. |                           |
-| **4\. Infrastructure Layer** _(Perangkat Fisik)_ | \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\__ | Hardware: Laptop/Tablet POS; Net: Wi-Fi/4G; OS: Windows/Android.   |
-                           |
+| **1\. Process Layer** _(Alur Kerja To-Be)_       | Alur registrasi pesanan kasir, kalkulasi otomatis tagihan laundry, pencarian nota pelanggan, dan pembaruan status pembayaran/pengambilan. | Menggantikan pencatatan buku kertas manual menjadi alur digital terstruktur yang memangkas waktu pelayanan kasir saat peak hours.   |                           |
+| **2\. Data Layer** _(Struktur Data Logis)_       | Entitas Data: Tabel Pelanggan, Tabel Layanan/Tarif, dan Tabel Transaksi Laundry | Entitas data: Berisi atribut wajib: ID Transaksi, Nama, No. Telp, Jenis Paket, Berat (Kg)/Pcs, Total Tagihan, Status Bayar, & Waktu Masuk..    |                           |
+| **3\. Application Layer** _(Modul Program)_      | Modul Input Pesanan & Hitung Otomatis, Modul Pencarian Transaksi, dan Modul Update Status Pembayaran. | Modul Utama: Antarmuka berbasis Python/Spreadsheet GUI sederhana untuk memvalidasi input, menghitung tagihan, dan mengubah status bayar.Login, Input Transaksi, Hitung Total/Diskon, & Rekap. |                           |
+| **4\. Infrastructure Layer** _(Perangkat Fisik)_ | Hardware: Laptop/PC Kasir / Tablet Android; Connectivity: Internet Wi-Fi/4G; OS: Windows/Android. | Hardware: Menggunakan perangkat laptop/tablet kasir toko yang terhubung ke koneksi internet lokal untuk sinkronisasi lembar data.   |
 
 #### **3\. SPESIFIKASI IPO (INPUT - PROCESSING - OUTPUT - STORAGE - CONTROL)**
 
