@@ -32,7 +32,6 @@ Keterkaitan Deliverable: **Bahan Utama Deliverable D1 Final (TPL-01) & D2 Draf (
 | :--- | :--- | :--- | :--- | :--- |
 | **Efisiensi (Waktu)** | Durasi pelayanan transaksi input pesanan per pelanggan | 120 detik (2 menit) / transaksi | **< 70 detik / transaksi** | Stopwatch sampel 10 transaksi input pesanan |
 | **Efisiensi (Waktu)** | Durasi pencarian data transaksi & status pelanggan | 30–60 detik / pencarian manual di buku besar | **< 10 detik / pencarian** | Uji coba pencarian data berdasarkan nama atau nomor telepon |
-| **Efisiensi (Waktu)** | Durasi rekapitulasi transaksi mingguan pemilik | Jarang dilakukan / tidak teratur (>30 menit) | **< 15 menit / minggu** | Pengujian simulasi rekapitulasi data transaksi mingguan |
 | **Efektivitas (Kualitas & Akurasi)** | Frekuensi kesalahan hitung nota & selisih tagihan | 1–2 kali / bulan (kesalahan hitung manual) | **0 kali / bulan (Akurasi 100%)** | Audit verifikasi kesesuaian tarif dan kalkulasi otomatis sistem |
 
 ### **4\. Workspace B: Pemetaan Arsitektur 5 Pilar SI Solusi Awal**
