@@ -14,8 +14,8 @@
 | # | User Story | Prioritas |
 |---|---|---|
 | 1 | Sebagai [Pemilik Laundry], saya ingin [Saya ingin mencatat transaksi pelanggan dan menghitung secara secara otomatis.] sehingga [Sehingga pencatatan transaksi lebih terstruktur dan memudahkan dalam pencarian data.] | [Tinggi] |
-| 2 | | Sebagai [Pemilik Laundry], saya ingin [Mencari data transaksi pelanggan untuk memeriksa status pembayaran tanpa melihat buku besar secara manual.] sehingga [Sehingga saya dapat melihat status pembayaran pelanggan dengan lebih mudah dan cepat.] | [Sedang] |
-| 3 | | Sebagai [Pemilik Laundry], saya ingin [Saya ingin melihat rekapitulasi transaksi dalam bentuk spreadsheet] sehingga [Tidak perlu menghitung nota fisik dan catatan di buku besar secara manual.] | [Sedang] |
+| 2 | Sebagai [Pemilik Laundry], saya ingin [Mencari data transaksi pelanggan untuk memeriksa status pembayaran tanpa melihat buku besar secara manual.] sehingga [Sehingga saya dapat melihat status pembayaran pelanggan dengan lebih mudah dan cepat.] | [Sedang] |
+| 3 | Sebagai [Pemilik Laundry], saya ingin [Saya ingin melihat rekapitulasi transaksi dalam bentuk spreadsheet] sehingga [Tidak perlu menghitung nota fisik dan catatan di buku besar secara manual.] | [Sedang] |
 
 ## 2. Kriteria Penerimaan
 
