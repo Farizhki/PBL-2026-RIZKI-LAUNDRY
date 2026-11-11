@@ -104,12 +104,12 @@ Keterkaitan Deliverable: **Bahan Utama Deliverable D1 Final (TPL-01) & D2 Draf (
 ### **5\. Workspace C: Lembar Persetujuan Formal Mitra (Sign-Off)**
 
 Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuhan fungsional, target metrik keberhasilan, dan batas cakupan sistem yang dirancang oleh tim mahasiswa.
+                   
+- **Nama UMKM Mitra**: Rizky Laundry              
+- **Nama Pemilik / Pengelola**: Rezza Rahayu                                            
+- **Tanggal Persetujuan**: 10/11/2026
 
-- **Nama UMKM Mitra**: Rizky Laundry
-- **Nama Pemilik / Pengelola**: Rezza Rahayu
-- **Tanggal Persetujuan**: 24/10/2026
-
-**Tanda Tangan Persetujuan Mitra**:
+**Tanda Tangan Persetujuan Mitra**:                                                                                                                                                                                                                      
 
 *(Rezza Rahayu — Pemilik Rizky Laundry)*
 
