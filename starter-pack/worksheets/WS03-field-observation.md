@@ -76,7 +76,7 @@ Gunakan lembar ini saat berada di lokasi mitra untuk mencatat secara kronologis 
 1.	Pelanggan mengambil sendiri
 Pelanggan datang ke laundry dengan menyerahkan nota atau menyebutkan nama, kemudian pemilik mencari nama pelanggan pada rak yang berisi pakaian yang sudah diproses. Pemilik memeriksa buku besar untuk mencari data pelanggan dengan menelusuri buku catatan untuk memastikan status pembayaran pelanggan. Jika pelanggan belum membayar maka akan di arahkan untuk membayar, jika sudah maka pakaian diserahkan kepada pelanggan.
 2.	Diantar ke pelanggan
-Pemilik memeriksa buku besar untuk memeriksa status pemabayaran pelanggan. Jika belum lunas, pelanggan akan di minta melakukan pembayaran terlebih dahulu sebelum pakaian di antarkan. Jika sudah maka pemilik akan menyiapkan pakaian untuk kemudian diantarkan ke Alamat pelanggan.
+Pemilik memeriksa buku besar untuk memeriksa status pembayaran pelanggan. Jika belum lunas, pelanggan akan di minta untuk melakukan pembayaran terlebih dahulu sebelum pakaian di antarkan. Jika sudah maka pemilik akan menyiapkan pakaian untuk kemudian diantarkan ke Alamat pelanggan.
 
 
 - **Langkah 4 (Pencatatan Stok & Rekap)** : Pemilik menggunakan tiga buku untuk pencatatan, yaitu pada buku besar (buku data pelanggan dan pencatatan transaksi), buku kecil (buku urutan pelanggan berdasarkan paket dan kedatangan), dan buku pengeluaran untuk mencatat biaya operasional. Pencatatan masih dilakukan secara manual, dan pemilik melakukan rekap seminggu sekali pada buku pengeluaran. Sedangkan, rekap transaksi jarang dilakukan karena masih terdapat transaksi yang belum lunas, sehingga pemasukan dari transaksi masih belum tercatat sebagai pembayaran yang diterima.
