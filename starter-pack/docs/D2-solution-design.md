@@ -31,6 +31,7 @@
 |---|---|---|---|
 | [waktu pencatatan] | [120 detik (2 menit)] | [<70 detik] | [Stopwatch sampel 10 transaksi input pesanan] |
 | [Durasi pencarian data transaksi & status pelanggan] | [30–60 detik / pencarian manual di buku besar] | [< 10 detik / pencarian] | [Uji coba pencarian data berdasarkan nama atau nomor telepon] |
+| Kelengkapan rekapitulasi transaksi  | Pencatatan transaksi dilakukan secara manual melalui nota dan buku besar, sedangkan rekapitulasi transaksi belum dilakukan secara rutin | Seluruh transaksi yang dicatat dapat dirangkum otomatis berdasarkan periode dan status pembayaran | Membandingkan data transaksi pada Spreadsheet Transaksi dengan hasil rekapitulasi |
 | [Frekuensi kesalahan hitung nota & selisih tagihan] | [1–2 kali / bulan (kesalahan hitung manual)] | [0 kali / bulan (Akurasi 100%)] | [Audit verifikasi kesesuaian tarif dan kalkulasi otomatis sistem] |
 
 ## 4. Desain Solusi
