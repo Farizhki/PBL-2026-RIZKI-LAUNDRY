@@ -1,4 +1,4 @@
-# **WORKBOOK: LEMBAR KERJA MAHASISWA WS06**
+w# **WORKBOOK: LEMBAR KERJA MAHASISWA WS06**
 
 ## **Success Metrics (BPI/DMAIC) & Pemetaan Komponen SI Awal**
 
@@ -116,10 +116,10 @@ Dengan ini, pemilik / manajer UMKM mitra menyatakan setuju atas rumusan kebutuha
 ### **6\. Verifikasi Integritas AI (TPL-07) & Pengesahan**
 
 - **Penggunaan AI Co-pilot**:  
-  Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar SI? [ ] Ya [ ] Tidak  
+  Apakah tim menggunakan AI untuk membantu merumuskan metrik BPI / diagram 5 pilar SI? [✓] Ya [ ] Tidak  
   _(Jika Ya, wajib melampirkan formulir **TPL-07: AI Usage Disclosure & Verification Note**)_
 
 **Tanda Tangan Tim & Pengesahan Dosen**:
 
 - **Phase Lead 3 (Define)**: Deva Nayla Maisya — 2600016039 (Tanggal: 24/10/2026)
-- **Dosen Coach**: Muhammad Ibnu Zappriliannur Syadin — 2300016045 (Tanggal: 26/10/2026) [x] Approved
+- **Dosen Coach**: Muhammad Ibnu Zappriliannur Syadin — 2300016045 (Tanggal: 08/11/2026) [✓] Approved
