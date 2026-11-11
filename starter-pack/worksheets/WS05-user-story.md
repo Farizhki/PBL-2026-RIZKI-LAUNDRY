@@ -84,16 +84,17 @@ Sistem menampilkan bahwa data belum lengkap.
 - **Tanggal Validasi**: 10/11/2026
 - **Narahubung Mitra**: Rezza Rahayu (Pemilik)
 - **Hasil Konfirmasi User Story**:  
-  [✓] Seluruh User Story disetujui mitra  
-  [✓] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
+  [✓] Seluruh User Story disetujui mitra. Bukti Validasi [[Tanda tangan](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/71bb0aa326cf1e514ece40a670926b0a4ae2b129/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Mitra%20Rezza%20Rahayu%20.jpeg)] [[Dokumentasi validasi](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/71bb0aa326cf1e514ece40a670926b0a4ae2b129/starter-pack/assets/foto/Dokumentasi%20Validasi.2.jpeg)]
+
+  [ ] Terdapat penyesuaian/revisi kebutuhan (Tuliskan revisi jika ada):
 
 ### **6\. Verifikasi Integritas AI (TPL-07) & Pengesahan**
 
 - **Penggunaan AI Co-pilot**:  
-  Apakah tim menggunakan AI untuk membantu merumuskan skenario _Given-When-Then_? [ ] Ya [ ] Tidak  
+  Apakah tim menggunakan AI untuk membantu merumuskan skenario _Given-When-Then_? [✓] Ya [ ] Tidak  
   _(Jika Ya, wajib melampirkan formulir_ **_TPL-07: AI Usage Disclosure & Verification Note_**_)_.
 
 **Tanda Tangan Tim & Pengesahan Dosen**:
 
-- **Phase Lead 3**: Deva Nayla Maisya (Tanggal: 19/10/2026)
+- **Phase Lead 3**: Deva Nayla Maisya (Tanggal: 19/10/2026) [[Tanda tangan](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/71bb0aa326cf1e514ece40a670926b0a4ae2b129/starter-pack/assets/tanda_tangan/Tanda%20tangan%20Nayla.jpeg)]
 - **Dosen Coach**: (Tanggal: 10/11/2026) [✓] Approved
