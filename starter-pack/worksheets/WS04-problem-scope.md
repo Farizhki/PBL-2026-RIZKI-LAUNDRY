@@ -76,8 +76,8 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 | **Indikator Kinerja**                            | **Kondisi As-Is (Baseline)** | **Target To-Be (Expected)** | **Estimasi Persentase Peningkatan**                      |
 | ------------------------------------------------ | ---------------------------- | --------------------------- | -------------------------------------------------------- |
 | **Waktu Pelayanan Transaksi Kasir**              | 120 detik / pelanggan        | **< 70 detik / pelanggan**  | Efisiensi waktu pelayanan **41.7%**                     |
-| **Durasi Pencarian Status Transaksi Pelanggan**  |  / pencarian manual | ** / pencarian**  | Efisiensi pencarian data > ****                       |
-| **Frekuensi Kesalahan Pencatatan/Selisih**   | 1–2 kali / bulan             | **Mengurangi Frekuensi Pencatatan** | Penurunan tingkat frekuensi kesalahan Pencatatan/selisih |
+| **Durasi Pencarian Status Transaksi Pelanggan**  |30–60 detik / pencarian manual di buku besar | **< 10 detik / pencarian**  | Uji coba pencarian data berdasarkan nama atau nomor telepon |
+| **Frekuensi Kesalahan Pencatatan/Selisih**   | 1–2 kali / bulan (kesalahan hitung manual)      | **0 kali / bulan (Akurasi 100%)** | Penurunan tingkat frekuensi kesalahan Pencatatan/selisih |
 
 ## **6\. Refleksi & Lembar Pengesahan Phase Lead**
 
