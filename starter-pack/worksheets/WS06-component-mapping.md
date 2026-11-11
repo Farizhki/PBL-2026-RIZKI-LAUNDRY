@@ -32,7 +32,7 @@ Keterkaitan Deliverable: **Bahan Utama Deliverable D1 Final (TPL-01) & D2 Draf (
 | :--- | :--- | :--- | :--- | :--- |
 | **Efisiensi (Waktu)** | Durasi pelayanan transaksi input pesanan per pelanggan | 120 detik (2 menit) / transaksi | **< 70 detik / transaksi** | Stopwatch sampel 10 transaksi input pesanan |
 | **Efisiensi (Waktu)** | Durasi pencarian data transaksi & status pelanggan | 30–60 detik / pencarian manual di buku besar | **< 10 detik / pencarian** | Uji coba pencarian data berdasarkan nama atau nomor telepon |
-| **Efektivitas (Kelengkapan informasi)** | Kelengkapan rekapitulasi transaksi  | Seluruh transaksi yang dicatat dapat dirangkum otomatis berdasarkan periode dan status pembayaran | **Seluruh transaksi yang dicatat dapat dirangkum otomatis berdasarkan periode dan status pembayaran** | Membandingkan data transaksi pada Spreadsheet Transaksi dengan hasil rekapitulasi |
+| **Efektivitas (Kelengkapan informasi)** | Kelengkapan rekapitulasi transaksi  | Pencatatan transaksi dilakukan secara manual melalui nota dan buku besar, sedangkan rekapitulasi transaksi belum dilakukan secara rutin | **Seluruh transaksi yang dicatat dapat dirangkum otomatis berdasarkan periode dan status pembayaran** | Membandingkan data transaksi pada Spreadsheet Transaksi dengan hasil rekapitulasi |
 | **Efektivitas (Kualitas & Akurasi)** | Frekuensi kesalahan hitung nota & selisih tagihan | 1–2 kali / bulan (kesalahan hitung manual) | **0 kali / bulan (Akurasi 100%)** | Audit verifikasi kesesuaian tarif dan kalkulasi otomatis sistem |
 
 ### **4\. Workspace B: Pemetaan Arsitektur 5 Pilar SI Solusi Awal**
