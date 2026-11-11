@@ -12,7 +12,7 @@
 
 | Artefak | Tool AI | Bagian yang Dibantu | Modifikasi yang Dilakukan |
 |---|---|---|---|
-| D1 | | | |
+| D1 |Chatgpt |Membantu memperbaiki tata bahasa dan penyusunan kalimat agar lebih jelas dan mudah dipahami. Selain itu, AI digunakan sebagai alat bantu dalam berdiskusi, memberikan saran, mencari alternatif, serta membantu mengembangkan dan mengevaluasi beberapa ide selama proses pengerjaan proyek. |Setiap hasil yang diberikan AI ditinjau dan disesuaikan kembali oleh tim. Perbaikan dilakukan dengan mempertimbangkan hasil wawancara, kondisi mitra, kebutuhan proyek, serta keputusan yang telah disepakati bersama oleh anggota tim. |
 | D2 | | | |
 | D3 | | | |
 | D4 | | | |
@@ -22,7 +22,7 @@
 
 | Artefak | Yang Dicek Ulang Manual | Cara Verifikasi |
 |---|---|---|
-| D1 | [angka/klaim] | [hitung ulang, cek sumber lapangan] |
+| D1 | Tata bahasa, isi tulisan, dan saran dari AI. | Membaca ulang, membandingkan dengan hasil wawancara, serta mendiskusikan hasilnya bersama tim. |
 | D2 | [desain & logika] | [telusuri flowchart/pseudocode] |
 | D3 | [sintaks & logika] | [jalankan di mesin sendiri, uji kasus] |
 | D4 | [fakta & bahasa] | [cek kebenaran isi] |
