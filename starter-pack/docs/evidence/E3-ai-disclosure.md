@@ -12,11 +12,11 @@
 
 | Artefak | Tool AI | Bagian yang Dibantu | Modifikasi yang Dilakukan |
 |---|---|---|---|
-| D1 |Chatgpt |Membantu memperbaiki tata bahasa dan penyusunan kalimat agar lebih jelas dan mudah dipahami. Selain itu, AI digunakan sebagai alat bantu dalam berdiskusi, memberikan saran, mencari alternatif, serta membantu mengembangkan dan mengevaluasi beberapa ide selama proses pengerjaan proyek. |Setiap hasil yang diberikan AI ditinjau dan disesuaikan kembali oleh tim. Perbaikan dilakukan dengan mempertimbangkan hasil wawancara, kondisi mitra, kebutuhan proyek, serta keputusan yang telah disepakati bersama oleh anggota tim. |
-| D2 | | | |
-| D3 | | | |
-| D4 | | | |
-| E1–E7 | | | |
+| D1 | Gemini AI | Mengidentifikasi dan mengelompokkan permasalahan operasional dari hasil wawancara, serta merumuskan masalah untuk fokus proyek dan kebutuhan awal sistem (CLI). | Meninjau hasil rumusan AI untuk memastikan masalah yang dipilih murni berdasarkan wawancara asli tanpa asumsi tambahan. |
+| D2 | Gemini AI | Menyusun narasi alasan pertimbangan kelayakan (*Feasibility & Scope Justification*) dan menjelaskan batasan sistem (*In-Scope* & *Out-of-Scope*). | Menyelaraskan argumen kelayakan dari AI dengan batasan sistem yang sudah disepakati dan didiskusikan bersama dosen pengampu. |
+| D3 | - | - | - |
+| D4 | - | - | - |
+| E1–E7 | AI (LLM) | Melakukan audit dokumen lembar kerja (WS01-WS07) terkait tata bahasa, ejaan (*typo*), konsistensi data (nama, alamat, nilai metrik baseline), dan potensi halusinasi. | Melakukan pengecekan silang secara manual pada dokumen berdasarkan daftar temuan AI, lalu mengoreksi *typo* dan menyamakan data yang inkonsisten. |
 
 ## 2. Verification Note
 
