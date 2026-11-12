@@ -50,9 +50,8 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 
 #### **4\. DIAGRAM ALIR (FLOWCHART) LOGIKA PROGRAM**
 
-_Petunjuk: Gambarkan diagram alir terstruktur menggunakan simbol standar (Persegi Panjang = Proses, Belah Ketupat = Keputusan IF-ELSE, Jajar Genjang = Input/Output, Oval = Start/End). Lampirkan hasil gambaran digital/foto kertas A3 di bawah ini._
-
-[ TEMPELKAN GAMBAR DIAGRAM FLOWCHART DIGITAL / FOTO DRAF A3 DI SINI ]
+[[Flowchart](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/8d3b36ef5b20ccf7e68ceef11c4f42ce40fd27ad/starter-pack/assets/Flowchart%2CPseducode%20dan%20BPM/Flowchart.drawio.png)]
+[[Pseuducode](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/blob/8d3b36ef5b20ccf7e68ceef11c4f42ce40fd27ad/starter-pack/assets/Flowchart%2CPseducode%20dan%20BPM/Pseuducode.md)]
 
 
 
