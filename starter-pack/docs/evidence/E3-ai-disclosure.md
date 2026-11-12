@@ -16,7 +16,7 @@
 | D2 | Gemini AI | Menyusun narasi alasan pertimbangan kelayakan (*Feasibility & Scope Justification*) dan menjelaskan batasan sistem (*In-Scope* & *Out-of-Scope*). | Menyelaraskan argumen kelayakan dari AI dengan batasan sistem yang sudah disepakati dan didiskusikan bersama dosen pengampu. |
 | D3 | - | - | - |
 | D4 | - | - | - |
-| E1–E7 | AI (LLM) | Melakukan audit dokumen lembar kerja (WS01-WS07) terkait tata bahasa, ejaan (*typo*), konsistensi data (nama, alamat, nilai metrik baseline), dan potensi halusinasi. | Melakukan pengecekan silang secara manual pada dokumen berdasarkan daftar temuan AI, lalu mengoreksi *typo* dan menyamakan data yang inkonsisten. |
+| E1–E7 | Gemini AI | Melakukan audit dokumen lembar kerja (WS01-WS07) terkait tata bahasa, ejaan (*typo*), konsistensi data (nama, alamat, nilai metrik baseline), dan potensi halusinasi. | Melakukan pengecekan silang secara manual pada dokumen berdasarkan daftar temuan AI, lalu mengoreksi *typo* dan menyamakan data yang inkonsisten. |
 
 ## 2. Verification Note
 
