@@ -53,11 +53,11 @@
 
 - Observasi lapangan tanggal: 07/10/2026
 - Wawancara pemilik (Wawancara 1 & 2) tanggal: 07/10/2026
-- Bukti pendukung pada folder `starter-pack/assets/`:
-  - Transkrip Wawancara 1 & 2 (`assets/transkrip/`)
-  - Audio Rekaman Wawancara 1 & 2 (`assets/rekaman_suara/`)
-  - Foto Dokumentasi Lapangan (`assets/foto/Dokumentasi wawancara 1.jpg`)
-  - Lembar Komitmen dan Tanda Tangan Anggota Tim (`assets/tanda_tangan/`)
+- Bukti pendukung pada folder `starter-pack/assets/`: [[Bukti]](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/tree/c2a3af791fb2bbf21b75751effdd85849910a724/starter-pack/assets)
+  - Transkrip Wawancara 1 & 2 (`assets/transkrip/`) [[Bukti]](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/tree/c2a3af791fb2bbf21b75751effdd85849910a724/starter-pack/assets)
+  - Audio Rekaman Wawancara 1 & 2 (`assets/rekaman_suara/`) [[Bukti]](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/tree/c2a3af791fb2bbf21b75751effdd85849910a724/starter-pack/assets)
+  - Foto Dokumentasi Lapangan (`assets/foto/Dokumentasi wawancara 1.jpg`) [[Bukti]](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/tree/c2a3af791fb2bbf21b75751effdd85849910a724/starter-pack/assets)
+  - Lembar Komitmen dan Tanda Tangan Anggota Tim (`assets/tanda_tangan/`) [[Bukti]](https://github.com/Farizhki/PBL-2026-RIZKI-LAUNDRY/tree/c2a3af791fb2bbf21b75751effdd85849910a724/starter-pack/assets)
 
 ---
 
