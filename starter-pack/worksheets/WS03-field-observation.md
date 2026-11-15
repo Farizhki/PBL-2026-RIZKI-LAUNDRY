@@ -17,7 +17,7 @@
 |**Dosen Pendamping / Coach**|Muhammad Ibnu Zappriliannur Syadin — 2300016045|
 |**Nama Unit Usaha Mitra (UMKM)**|Rizky Laundry|
 |**Bidang Usaha & Produk Utama**|Laundry|
-|**Alamat Lengkap & Jarak Kampus**|Jl. Tegal Mulyo No.RT05 RW06, Tamanan, Kec. Banguntapan, Bantul (~300m selatan UAD 4)|
+|**Alamat Lengkap & Jarak Kampus**|Jl. Kalimo sodo RT05/RW06, Tamanan, Kec. Banguntapan, Bantul (300m selatan UAD 4)|
 |**Nama & Peran Pemilik / Staf Mitra**|Rezza Rahayu (Pemilik)|
 |**Jadwal Kunjungan Lapangan**|Rabu, 07 Oktober 2026, Pukul: 20.00 WIB|
 
